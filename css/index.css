@@ -397,14 +397,6 @@
 	visibility: inherit;
 }
 
-#u158
-{
-	width: 70px;
-	min-height: 34px;
-	background-color: transparent;
-	position: relative;
-}
-
 #u161
 {
 	width: 70px;
@@ -1908,7 +1900,7 @@
 	width: 0.01px;
 	height: 22px;
 	position: fixed;
-	top: 510px;
+	top: 483px;
 	right: 222px;
 }
 
@@ -8870,12 +8862,6 @@
 	position: relative;
 	margin-right: -10000px;
 	left: 11px;
-}
-
-#u1443-bw
-{
-	z-index: 976;
-	min-height: 1000px;
 }
 
 #pu194,#pu260,#pu312,#pu467,#pu492,#pu1110,#pu1355,#pu1387,#pu1444
