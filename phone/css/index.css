@@ -5249,7 +5249,7 @@
 	padding-bottom: 79px;
 }
 
-#top,#about,#services,#facts,#djs,#lookingfor,#events,#news,#subscribe,#faq,#contact
+#top,#about,#services,#facts,#artists,#lookingfor,#events,#news,#subscribe,#faq,#contact
 {
 	position: relative;
 }
@@ -6029,4 +6029,3 @@ body
 {
 	clear: both;
 }
-
