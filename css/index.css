@@ -90,22 +90,29 @@
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1170px;
+	width: 100%;
 	position: relative;
-	left: -100px;
+	left: 0;
 	padding-bottom: 114px;
 }
 
 #menuu106
 {
 	z-index: 8;
-	width: 498px;
+	width: 100%;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	left: 436px;
-	margin-top: 15px;
 	position: relative;
+	padding-top: 15px;
+	background: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(16px);
+	text-align: center;
+}
+
+#menuu106 .MenuItemContainer{
+	float: none;
+  display: inline-block;
 }
 
 #u107
@@ -114,7 +121,6 @@
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
 }
 
 #u110
@@ -140,11 +146,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 19px;
-	color: #3D3D3D;
 	font-size: 16px;
 	text-align: center;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -171,8 +174,6 @@
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
-	left: 71px;
 }
 
 #u131
@@ -198,11 +199,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 19px;
-	color: #3D3D3D;
 	font-size: 16px;
 	text-align: center;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -229,8 +227,6 @@
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
-	left: 142px;
 }
 
 #u138
@@ -256,11 +252,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 19px;
-	color: #3D3D3D;
 	font-size: 16px;
 	text-align: center;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -287,8 +280,6 @@
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
-	left: 213px;
 }
 
 #u145
@@ -322,11 +313,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 19px;
-	color: #3D3D3D;
 	font-size: 16px;
 	text-align: center;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -362,8 +350,6 @@
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
-	left: 284px;
 }
 
 #u154
@@ -389,11 +375,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 19px;
-	color: #3D3D3D;
 	font-size: 16px;
 	text-align: center;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -420,8 +403,6 @@
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
-	left: 356px;
 }
 
 #u161
@@ -447,11 +428,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 19px;
-	color: #3D3D3D;
 	font-size: 16px;
 	text-align: center;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -478,8 +456,6 @@
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
-	left: 428px;
 }
 
 #u166
@@ -513,11 +489,8 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	line-height: 19px;
-	color: #3D3D3D;
 	font-size: 16px;
 	text-align: center;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -2484,6 +2457,12 @@
 .MenuItem,.PamphletWidget .ThumbGroup .Thumb,.PamphletNextButton,.PamphletPrevButton,.PamphletCloseButton,.AccordionPanelTab /* unifiedNavBar */
 {
 	cursor: pointer;
+}
+
+.MenuItemLabel {
+	font-family: Sora;
+	line-height: 24px;
+	color: #000000;
 }
 
 #u218-bw
@@ -8129,6 +8108,11 @@
 #u1355_position_content
 {
 	padding-bottom: 190px;
+}
+
+#top
+{
+	display: none;
 }
 
 #top,#services,#facts,#djs,#lookingfor,#events,#news,#subscribe

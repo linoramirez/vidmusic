@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html class="html" lang="en-GB">
  <head>
-
   <script type="text/javascript">
    if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "musewpdisclosure.js", "jquery.watch.js", "museredirect.js", "index.css"], "outOfDate":[]};
 </script>
-  
+
   <script src="scripts/museredirect.js?3899419633" type="text/javascript"></script>
-  
+
   <script type="text/javascript">
    Muse.Redirect.redirect('desktop', 'tablet/index.html', 'phone/index.html');
 </script>
-  
+
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="description" content="Premium Adobe Muse template by Vinyljunkie. Download only at Themeforest.net"/>
   <meta name="keywords" content="adobe muse, muse template, muse theme, onepage, template, themeforest, premium template, free adobe muse template, free muse template, music template, dj, djbooking, promodj, booking agency, party, nightclub, promoter, artist, dj profile, dj page"/>
@@ -22,6 +21,10 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4184159348"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?113080564" id="pagesheet"/>
+
+  <!--Font-->
+  <link href='http://fonts.googleapis.com/css?family=Sora' rel='stylesheet' type='text/css'>
+
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?409837187"/>
   <![endif]-->
@@ -42,7 +45,7 @@ var __adobewebfontsappname__ = "muse";
 // SmoothScroll v1.2.1
 // Licensed under the terms of the MIT license.
 // People involved
-//  - Balazs Galambosi (maintainer)  
+//  - Balazs Galambosi (maintainer)
 //  - Patrick Brunner  (original idea)
 //  - Michael Herf     (Pulse Algorithm)
 //  - Justin Force     (Resurect)
@@ -381,7 +384,7 @@ transition: all 0.5s ease 0s ;
        <div class="ContainerGroup rgba-background clearfix" id="u270"><!-- stack box -->
         <div class="Container clearfix grpelem" id="u272"><!-- group -->
          <div class="grpelem" id="u296"><!-- custom html -->
-          
+
 <iframe class="actAsDiv" width="731" height="456" src="http://www.youtube.com/embed/8eDuupJ9Uus?autoplay=0&loop=0&showinfo=0&theme=dark&color=red&controls=1&modestbranding=1&start=0&fs=1&iv_load_policy=3&wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
 
 </div>
@@ -1343,7 +1346,7 @@ $('.counter').counterUp({
      </div>
      <div class="browser_width grpelem" id="u1446-bw">
       <div id="u1446"><!-- custom html -->
-       
+
 <iframe class="actAsDiv" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=Adobe%20Systems%20Inc%2C%20Park%20Avenue%2C%20San%20Jose%2C%20CA&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
 
 </div>
@@ -1428,10 +1431,7 @@ $('.counter').counterUp({
    <img class="preload" src="images/u1467-17-m.png" alt=""/>
    <img class="preload" src="images/u1467-17-fs.png" alt=""/>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
+
   <script type="text/javascript">
    window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
@@ -1450,7 +1450,8 @@ $('.counter').counterUp({
    $(document).ready(function() { try {
 (function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
 for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
-typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();
+/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 $('#u194').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0.2],"in":[0,Infinity]}]);/* scroll effect */
