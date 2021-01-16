@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html class="html" lang="en-GB">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "musewpdisclosure.js", "jquery.watch.js", "museredirect.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <script src="scripts/museredirect.js?3899419633" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+   Muse.Redirect.redirect('desktop', 'tablet/index.html', 'phone/index.html');
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="description" content="Premium Adobe Muse template by Vinyljunkie. Download only at Themeforest.net"/>
+  <meta name="keywords" content="adobe muse, muse template, muse theme, onepage, template, themeforest, premium template, free adobe muse template, free muse template, music template, dj, djbooking, promodj, booking agency, party, nightclub, promoter, artist, dj profile, dj page"/>
+  <meta name="generator" content="2015.0.2.310"/>
+  <title>PerfectBeat - DJ Booking Agency Muse template</title>
+  <link media="only screen and (max-device-width: 370px)" rel="alternate" href="http://design4dj.com/phone/index.html"/>
+  <link media="only screen and (max-device-width: 960px)" rel="alternate" href="http://design4dj.com/tablet/index.html"/>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?4184159348"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?113080564" id="pagesheet"/>
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?409837187"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/montserrat:n4:default;lato:n3,n4,n7:default;bebas-neue:n4:default.js" type="text/javascript">\x3C/script>');
+</script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+  <![endif]-->
+    <!--custom head HTML-->
+    <script type="text/javascript">
+// SmoothScroll v1.2.1
+// Licensed under the terms of the MIT license.
+// People involved
+//  - Balazs Galambosi (maintainer)  
+//  - Patrick Brunner  (original idea)
+//  - Michael Herf     (Pulse Algorithm)
+//  - Justin Force     (Resurect)
+// Scroll Variables (tweakable)
+function init(){if(!document.body)return;var e=document.body,t=document.documentElement,n=window.innerHeight,r=e.scrollHeight;root=document.compatMode.indexOf("CSS")>=0?t:e;activeElement=e;initdone=!0;if(top!=self)frame=!0;else if(r>n&&(e.offsetHeight<=n||t.offsetHeight<=n)){var i=!1,s=function(){if(!i&&t.scrollHeight!=document.height){i=!0;setTimeout(function(){t.style.height=document.height+"px";i=!1},500)}};t.style.height="";setTimeout(s,10);addEvent("DOMNodeInserted",s);addEvent("DOMNodeRemoved",s);if(root.offsetHeight<=n){var o=document.createElement("div");o.style.clear="both";e.appendChild(o)}}if(document.URL.indexOf("mail.google.com")>-1){var u=document.createElement("style");u.innerHTML=".iu { visibility: hidden }";(document.getElementsByTagName("head")[0]||t).appendChild(u)}if(!fixedback&&!disabled){e.style.backgroundAttachment="scroll";t.style.backgroundAttachment="scroll"}}function scrollArray(e,t,n,r){r||(r=1e3);directionCheck(t,n);if(acceleration){var i=+(new Date),s=i-lastScroll;if(s<accelDelta){var o=(1+30/s)/2;if(o>1){o=Math.min(o,accelMax);t*=o;n*=o}}lastScroll=+(new Date)}que.push({x:t,y:n,lastX:t<0?.99:-0.99,lastY:n<0?.99:-0.99,start:+(new Date)});if(pending)return;var u=e===document.body,a=function(){var i=+(new Date),s=0,o=0;for(var f=0;f<que.length;f++){var l=que[f],c=i-l.start,h=c>=animtime,p=h?1:c/animtime;pulseAlgorithm&&(p=pulse(p));var d=l.x*p-l.lastX>>0,v=l.y*p-l.lastY>>0;s+=d;o+=v;l.lastX+=d;l.lastY+=v;if(h){que.splice(f,1);f--}}if(u)window.scrollBy(s,o);else{s&&(e.scrollLeft+=s);o&&(e.scrollTop+=o)}!t&&!n&&(que=[]);que.length?requestFrame(a,e,r/framerate+1):pending=!1};requestFrame(a,e,0);pending=!0}function wheel(e){initdone||init();var t=e.target,n=overflowingAncestor(t);if(!n||e.defaultPrevented||isNodeName(activeElement,"embed")||isNodeName(t,"embed")&&/\.pdf/i.test(t.src))return!0;var r=e.wheelDeltaX||0,i=e.wheelDeltaY||0;!r&&!i&&(i=e.wheelDelta||0);Math.abs(r)>1.2&&(r*=stepsize/120);Math.abs(i)>1.2&&(i*=stepsize/120);scrollArray(n,-r,-i);e.preventDefault()}function keydown(e){var t=e.target,n=e.ctrlKey||e.altKey||e.metaKey||e.shiftKey&&e.keyCode!==key.spacebar;if(/input|textarea|select|embed/i.test(t.nodeName)||t.isContentEditable||e.defaultPrevented||n)return!0;if(isNodeName(t,"button")&&e.keyCode===key.spacebar)return!0;var r,i=0,s=0,o=overflowingAncestor(activeElement),u=o.clientHeight;o==document.body&&(u=window.innerHeight);switch(e.keyCode){case key.up:s=-arrowscroll;break;case key.down:s=arrowscroll;break;case key.spacebar:r=e.shiftKey?1:-1;s=-r*u*.9;break;case key.pageup:s=-u*.9;break;case key.pagedown:s=u*.9;break;case key.home:s=-o.scrollTop;break;case key.end:var a=o.scrollHeight-o.scrollTop-u;s=a>0?a+10:0;break;case key.left:i=-arrowscroll;break;case key.right:i=arrowscroll;break;default:return!0}scrollArray(o,i,s);e.preventDefault()}function mousedown(e){activeElement=e.target}function setCache(e,t){for(var n=e.length;n--;)cache[uniqueID(e[n])]=t;return t}function overflowingAncestor(e){var t=[],n=root.scrollHeight;do{var r=cache[uniqueID(e)];if(r)return setCache(t,r);t.push(e);if(n===e.scrollHeight){if(!frame||root.clientHeight+10<n)return setCache(t,document.body)}else if(e.clientHeight+10<e.scrollHeight){overflow=getComputedStyle(e,"").getPropertyValue("overflow-y");if(overflow==="scroll"||overflow==="auto")return setCache(t,e)}}while(e=e.parentNode)}function addEvent(e,t,n){window.addEventListener(e,t,n||!1)}function removeEvent(e,t,n){window.removeEventListener(e,t,n||!1)}function isNodeName(e,t){return(e.nodeName||"").toLowerCase()===t.toLowerCase()}function directionCheck(e,t){e=e>0?1:-1;t=t>0?1:-1;if(direction.x!==e||direction.y!==t){direction.x=e;direction.y=t;que=[];lastScroll=0}}function pulse_(e){var t,n,r;e*=pulseScale;if(e<1)t=e-(1-Math.exp(-e));else{n=Math.exp(-1);e-=1;r=1-Math.exp(-e);t=n+r*(1-n)}return t*pulseNormalize}function pulse(e){if(e>=1)return 1;if(e<=0)return 0;pulseNormalize==1&&(pulseNormalize/=pulse_(1));return pulse_(e)}var framerate=150,animtime=1e3,stepsize=80,pulseAlgorithm=!0,pulseScale=8,pulseNormalize=1,acceleration=!0,accelDelta=10,accelMax=1,keyboardsupport=!0,disableKeyboard=!1,arrowscroll=50,exclude="",disabled=!1,frame=!1,direction={x:0,y:0},initdone=!1,fixedback=!0,root=document.documentElement,activeElement,key={left:37,up:38,right:39,down:40,spacebar:32,pageup:33,pagedown:34,end:35,home:36},que=[],pending=!1,lastScroll=+(new Date),cache={};setInterval(function(){cache={}},1e4);var uniqueID=function(){var e=0;return function(t){return t.uniqueID||(t.uniqueID=e++)}}(),requestFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||function(e,t,n){window.setTimeout(e,n||1e3/60)}}();addEvent("mousedown",mousedown);addEvent("mousewheel",wheel);addEvent("load",init);
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+<script type="text/javascript" src="assets/jquery.counterup.min.js"></script>
+
+<style>
+p, .submit-btn, .btn_hover1, .btn_hover2, .services, .video_btn, .flyer01, .flyer02, .flyer03, .djtrigger, .social_btn_fb, .social_btn_tw, .social_btn_insta {
+transition: all 0.5s ease 0s ;
+}
+</style>
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu194"><!-- group -->
+     <div class="browser_width grpelem" id="u194-bw">
+      <div id="u194"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u172-bw">
+      <div id="u172"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u187-bw">
+      <div id="u187"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u180-bw">
+      <div id="u180"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u201-bw">
+      <div id="u201"><!-- column -->
+       <div class="clearfix" id="u201_align_to_page">
+        <a class="anchor_item colelem" id="top"></a>
+        <nav class="MenuBar clearfix colelem" id="menuu106"><!-- horizontal box -->
+         <div class="MenuItemContainer clearfix grpelem" id="u107"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u110" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u113-4"><!-- content --><p>About</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix grpelem" id="u130"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u131" href="index.html#services"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u134-4"><!-- content --><p>Services</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix grpelem" id="u137"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u138" href="index.html#djs"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u139-4"><!-- content --><p>DJs</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix grpelem" id="u144"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u145" href="index.html#events"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u148-4"><!-- content --><p>Events</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix grpelem" id="u151"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u154" href="index.html#news"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u155-4"><!-- content --><p>News</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix grpelem" id="u158"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u161" href="index.html#faq"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u164-4"><!-- content --><p>F.A.Q.</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix grpelem" id="u165"><!-- vertical box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u166" href="index.html#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u167-4"><!-- content --><p>Contact</p></div></a>
+         </div>
+        </nav>
+        <div class="clearfix colelem" id="pu1535"><!-- group -->
+         <a class="nonblock nontext social_btn_fb museBGSize grpelem" id="u1535" href="https://www.facebook.com/iamvinyljunkie" title="Facebook"><!-- simple frame --></a>
+         <a class="nonblock nontext social_btn_tw museBGSize grpelem" id="u1534" href="https://twitter.com/iamvinyljunkie" title="Twitter"><!-- simple frame --></a>
+         <a class="nonblock nontext social_btn_insta museBGSize grpelem" id="u1533" href="https://instagram.com/tools4dj/" title="Instagram"><!-- simple frame --></a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu85"><!-- group -->
+     <div class="mse_pre_init" id="u85"><!-- simple frame --></div>
+     <div class="clearfix mse_pre_init" id="u75-5"><!-- content -->
+      <p><span id="u75">Perfect</span><span id="u75-2">Beat</span></p>
+     </div>
+     <div class="clearfix mse_pre_init" id="u83-4"><!-- content -->
+      <p>INTERNATIONAL DJ BOOKING AGENCY FROM UK</p>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1636"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1637"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1640"><!-- group -->
+         <a class="block anim_swing" href="index.html#top"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1715"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1716"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1719" href="index.html#top"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1647popup">
+       <div class="ContainerGroup clearfix" id="u1647"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1648" href="index.html#top"><!-- group --><div class="clearfix grpelem" id="u1651-4"><!-- content --><p>HOME</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1688"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1695"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1696"><!-- group -->
+         <a class="block anim_swing" href="index.html#about"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1723"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1724"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1727" href="index.html#about"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1697popup">
+       <div class="ContainerGroup clearfix" id="u1697"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1698" href="index.html#about"><!-- group --><div class="clearfix grpelem" id="u1699-4"><!-- content --><p>ABOUT AGENCY</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1743"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1746"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1747"><!-- group -->
+         <a class="block anim_swing" href="index.html#video"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1748"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1749"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1750" href="index.html#video"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1760popup">
+       <div class="ContainerGroup clearfix" id="u1760"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1761" href="index.html#video"><!-- group --><div class="clearfix grpelem" id="u1762-4"><!-- content --><p>VIDEO TOUR</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1783"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1789"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1790"><!-- group -->
+         <a class="block anim_swing" href="index.html#services"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1791"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1792"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1793" href="index.html#services"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1784popup">
+       <div class="ContainerGroup clearfix" id="u1784"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1785" href="index.html#services"><!-- group --><div class="clearfix grpelem" id="u1786-4"><!-- content --><p>OUR SERVICES</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1823"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1826"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1827"><!-- group -->
+         <a class="block anim_swing" href="index.html#facts"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1828"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1829"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1830" href="index.html#facts"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1840popup">
+       <div class="ContainerGroup clearfix" id="u1840"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1841" href="index.html#facts"><!-- group --><div class="clearfix grpelem" id="u1842-4"><!-- content --><p>SOME FACTS</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1863"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1871"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1872"><!-- group -->
+         <a class="block anim_swing" href="index.html#djs"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1873"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1874"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1875" href="index.html#djs"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1868popup">
+       <div class="ContainerGroup clearfix" id="u1868"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1869" href="index.html#djs"><!-- group --><div class="clearfix grpelem" id="u1870-4"><!-- content --><p>DJ ROSTER</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1903"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1906"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1907"><!-- group -->
+         <a class="block anim_swing" href="index.html#lookingfor"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1908"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1909"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1912" href="index.html#lookingfor"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1918popup">
+       <div class="ContainerGroup clearfix" id="u1918"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1919" href="index.html#lookingfor"><!-- group --><div class="clearfix grpelem" id="u1920-4"><!-- content --><p>WE ARE LOOKING FOR</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1943"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1953"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1954"><!-- group -->
+         <a class="block anim_swing" href="index.html#events"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1955"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1956"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1959" href="index.html#events"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1946popup">
+       <div class="ContainerGroup clearfix" id="u1946"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1947" href="index.html#events"><!-- group --><div class="clearfix grpelem" id="u1948-4"><!-- content --><p>UPCOMING EVENTS</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu1983"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1989"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u1990"><!-- group -->
+         <a class="block anim_swing" href="index.html#news"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu1991"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u1992"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u1993" href="index.html#news"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1986popup">
+       <div class="ContainerGroup clearfix" id="u1986"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u1987" href="index.html#news"><!-- group --><div class="clearfix grpelem" id="u1988-4"><!-- content --><p>LATEST NEWS</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu2003"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u2004"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u2005"><!-- group -->
+         <a class="block anim_swing" href="index.html#faq"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu2006"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2007"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u2008" href="index.html#faq"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u2016popup">
+       <div class="ContainerGroup clearfix" id="u2016"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u2017" href="index.html#faq"><!-- group --><div class="clearfix grpelem" id="u2018-4"><!-- content --><p>F.A.Q.</p></div></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix" id="pamphletu2043"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u2046"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="pointer_cursor Thumb popup_element clearfix" id="u2047"><!-- group -->
+         <a class="block anim_swing" href="index.html#contact"></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu2048"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2049"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing colelem" id="u2052" href="index.html#contact"><!-- horizontal box --></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u2056popup">
+       <div class="ContainerGroup clearfix" id="u2056"><!-- stack box -->
+        <a class="nonblock nontext Container anim_swing invi rounded-corners clearfix grpelem" id="u2057" href="index.html#contact"><!-- group --><div class="clearfix grpelem" id="u2058-4"><!-- content --><p>CONTACT</p></div></a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu105"><!-- group -->
+     <div class="browser_width grpelem" id="u105-bw">
+      <div id="u105"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u216-bw">
+      <div id="u216"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u217-bw">
+      <div id="u217"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u218-bw">
+      <div id="u218"><!-- group -->
+       <div class="clearfix" id="u218_align_to_page">
+        <div class="clearfix grpelem" id="pabout"><!-- column -->
+         <a class="anchor_item colelem" id="about"></a>
+         <div class="colelem" id="u209"><!-- simple frame --></div>
+        </div>
+        <ul class="AccordionWidget clearfix grpelem" id="accordionu219"><!-- vertical box -->
+         <li class="AccordionPanel clearfix colelem" id="u228"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u231-4"><!-- content --><p>About us</p></div><div class="AccordionPanelContent clearfix colelem" id="u229"><!-- column --><div class="colelem" id="u246"><!-- simple frame --></div><div class="clearfix colelem" id="u230-7"><!-- content --><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>&nbsp;</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p></div></div></li>
+         <li class="AccordionPanel clearfix colelem" id="u233"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u234-4"><!-- content --><p>MISSION</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u235"><!-- column --><div class="position_content" id="u235_position_content"><div class="colelem" id="u247"><!-- simple frame --></div><div class="clearfix colelem" id="u248-10"><!-- content --><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>&nbsp;</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p><p>&nbsp;</p><p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p></div></div></div></li>
+         <li class="AccordionPanel clearfix colelem" id="u237"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u238-4"><!-- content --><p>VISION</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u239"><!-- column --><div class="position_content" id="u239_position_content"><div class="colelem" id="u249"><!-- simple frame --></div><div class="clearfix colelem" id="u250-10"><!-- content --><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>&nbsp;</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p><p>&nbsp;</p><p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p></div></div></div></li>
+         <li class="AccordionPanel clearfix colelem" id="u240"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u241-4"><!-- content --><p>CLIENTS</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u242"><!-- column --><div class="colelem" id="u251"><!-- simple frame --></div><div class="clearfix colelem" id="u252-10"><!-- content --><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p><p>&nbsp;</p><p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>&nbsp;</p><p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p></div></div></li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu260"><!-- group -->
+     <div class="browser_width grpelem" id="u260-bw">
+      <div class="museBGSize" id="u260"><!-- group -->
+       <div class="clearfix" id="u260_align_to_page">
+        <a class="anchor_item grpelem" id="video"></a>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu267"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u276"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element clearfix" id="u277"><!-- group -->
+         <div class="clearfix grpelem" id="u295-6"><!-- content -->
+          <p id="u295-2">WATCH VIDEO</p>
+          <p id="u295-4">WHY CLUBS LOVE US</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u270popup">
+       <div class="ContainerGroup rgba-background clearfix" id="u270"><!-- stack box -->
+        <div class="Container clearfix grpelem" id="u272"><!-- group -->
+         <div class="grpelem" id="u296"><!-- custom html -->
+          
+<iframe class="actAsDiv" width="731" height="456" src="http://www.youtube.com/embed/8eDuupJ9Uus?autoplay=0&loop=0&showinfo=0&theme=dark&color=red&controls=1&modestbranding=1&start=0&fs=1&iv_load_policy=3&wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
+
+</div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu312"><!-- group -->
+     <div class="browser_width grpelem" id="u312-bw">
+      <div id="u312"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u319-bw">
+      <div id="u319"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u320-bw">
+      <div id="u320"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u321-bw">
+      <div id="u321"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u322-bw">
+      <div id="u322"><!-- column -->
+       <div class="clearfix" id="u322_align_to_page">
+        <div class="clearfix colelem" id="u307-5"><!-- content -->
+         <p>OUR <span id="u307-2">Services</span></p>
+        </div>
+        <div class="colelem" id="u311"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u365-bw">
+      <div id="u365"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u366-bw">
+      <div id="u366"><!-- column -->
+       <div class="clearfix" id="u366_align_to_page">
+        <a class="anchor_item colelem" id="services"></a>
+        <div class="Button services clearfix colelem" id="buttonu367"><!-- container box -->
+         <div class="clearfix colelem" id="u394-4"><!-- content -->
+          <p>DJ / ARTIST BOOKING</p>
+         </div>
+         <div class="clearfix colelem" id="u395-4"><!-- content -->
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+         </div>
+        </div>
+        <div class="Button services clearfix colelem" id="buttonu396"><!-- container box -->
+         <div class="clearfix colelem" id="u397-4"><!-- content -->
+          <p>CLUB &amp; CORPORATE EVENTS</p>
+         </div>
+         <div class="clearfix colelem" id="u398-4"><!-- content -->
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+         </div>
+        </div>
+        <div class="Button services clearfix colelem" id="buttonu402"><!-- container box -->
+         <div class="clearfix colelem" id="u404-4"><!-- content -->
+          <p>PROMO DJ</p>
+         </div>
+         <div class="clearfix colelem" id="u403-4"><!-- content -->
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+         </div>
+        </div>
+        <div class="Button services clearfix colelem" id="buttonu411"><!-- container box -->
+         <div class="clearfix colelem" id="u413-4"><!-- content -->
+          <p>COURSES FROM PROFESSIONALS</p>
+         </div>
+         <div class="clearfix colelem" id="u412-4"><!-- content -->
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+         </div>
+        </div>
+        <div class="Button services clearfix colelem" id="buttonu420"><!-- container box -->
+         <div class="clearfix colelem" id="u422-4"><!-- content -->
+          <p>RECORD LABEL SERVICES</p>
+         </div>
+         <div class="clearfix colelem" id="u421-4"><!-- content -->
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u330-bw">
+     <div class="museBGSize" id="u330"><!-- column -->
+      <div class="clearfix" id="u330_align_to_page">
+       <div class="position_content" id="u330_position_content">
+        <a class="anchor_item colelem" id="facts"></a>
+        <div class="clearfix colelem" id="u423-5"><!-- content -->
+         <p>SOME IMPORTANT <span id="u423-2">FACTS</span></p>
+        </div>
+        <div class="colelem" id="u424"><!-- simple frame --></div>
+        <div class="clearfix colelem" id="pbuttonu425"><!-- group -->
+         <div class="Button btn_hover2 clearfix grpelem" id="buttonu425"><!-- container box -->
+          <div class="counter clearfix colelem" id="u428-4"><!-- content -->
+           <p>465</p>
+          </div>
+          <div class="clearfix colelem" id="u431-4"><!-- content -->
+           <p>Events</p>
+          </div>
+         </div>
+         <div class="Button btn_hover2 clearfix grpelem" id="buttonu441"><!-- container box -->
+          <div class="counter clearfix colelem" id="u443-4"><!-- content -->
+           <p>35</p>
+          </div>
+          <div class="clearfix colelem" id="u442-4"><!-- content -->
+           <p>Awards</p>
+          </div>
+         </div>
+         <div class="Button btn_hover2 clearfix grpelem" id="buttonu447"><!-- container box -->
+          <div class="counter clearfix colelem" id="u449-4"><!-- content -->
+           <p>759</p>
+          </div>
+          <div class="clearfix colelem" id="u448-4"><!-- content -->
+           <p>Releases</p>
+          </div>
+         </div>
+         <div class="Button btn_hover2 clearfix grpelem" id="buttonu456"><!-- container box -->
+          <div class="counter clearfix colelem" id="u458-4"><!-- content -->
+           <p>65</p>
+          </div>
+          <div class="clearfix colelem" id="u457-4"><!-- content -->
+           <p>DJ's</p>
+          </div>
+         </div>
+         <div class="Button btn_hover2 clearfix grpelem" id="buttonu459"><!-- container box -->
+          <div class="counter clearfix colelem" id="u460-4"><!-- content -->
+           <p>830</p>
+          </div>
+          <div class="clearfix colelem" id="u461-4"><!-- content -->
+           <p>Clients</p>
+          </div>
+         </div>
+        </div>
+        <div class="colelem" id="u465"><!-- custom html -->
+         <script>
+$('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+
+</script>
+</div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu467"><!-- group -->
+     <div class="browser_width grpelem" id="u467-bw">
+      <div id="u467"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u638-bw">
+      <div id="u638"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u639-bw">
+      <div id="u639"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u640-bw">
+      <div id="u640"><!-- column -->
+       <div class="clearfix" id="u640_align_to_page">
+        <div class="position_content" id="u640_position_content">
+         <a class="anchor_item colelem" id="djs"></a>
+         <div class="clearfix colelem" id="u479-5"><!-- content -->
+          <p>DJ <span id="u479-2">ROSTER</span></p>
+         </div>
+         <div class="colelem" id="u480"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu511"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u512"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u515"><!-- column -->
+         <div class="clearfix colelem" id="u623-4"><!-- content -->
+          <p id="u623-2">Sven VATH</p>
+         </div>
+         <div class="clearfix colelem" id="u625-4"><!-- content -->
+          <p id="u625-2">Cocoon Records / Germany</p>
+         </div>
+         <div class="colelem" id="u614"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u641"><!-- column -->
+         <div class="clearfix colelem" id="u759-4"><!-- content -->
+          <p id="u759-2">RON TRENT</p>
+         </div>
+         <div class="clearfix colelem" id="u760-4"><!-- content -->
+          <p id="u760-2">Ital Foods / USA</p>
+         </div>
+         <div class="colelem" id="u758"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u671"><!-- column -->
+         <div class="clearfix colelem" id="u762-4"><!-- content -->
+          <p id="u762-2">LOCO DICE</p>
+         </div>
+         <div class="clearfix colelem" id="u763-4"><!-- content -->
+          <p id="u763-2">Germany</p>
+         </div>
+         <div class="colelem" id="u761"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u673"><!-- column -->
+         <div class="clearfix colelem" id="u765-4"><!-- content -->
+          <p id="u765-2">RICHIE HAWTIN</p>
+         </div>
+         <div class="clearfix colelem" id="u766-4"><!-- content -->
+          <p id="u766-2">Minus / Germany</p>
+         </div>
+         <div class="colelem" id="u764"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u675"><!-- column -->
+         <div class="clearfix colelem" id="u858-4"><!-- content -->
+          <p id="u858-2">MATADOR</p>
+         </div>
+         <div class="clearfix colelem" id="u859-4"><!-- content -->
+          <p id="u859-2">Minus / Ireland</p>
+         </div>
+         <div class="colelem" id="u857"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u677"><!-- column -->
+         <div class="clearfix colelem" id="u861-4"><!-- content -->
+          <p id="u861-2">KENNY LARKIN</p>
+         </div>
+         <div class="clearfix colelem" id="u862-4"><!-- content -->
+          <p id="u862-2">Warp Records / USA</p>
+         </div>
+         <div class="colelem" id="u860"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u679"><!-- column -->
+         <div class="clearfix colelem" id="u864-4"><!-- content -->
+          <p id="u864-2">SETH TROXLER</p>
+         </div>
+         <div class="clearfix colelem" id="u865-4"><!-- content -->
+          <p id="u865-2">Spectral Sound / UK</p>
+         </div>
+         <div class="colelem" id="u863"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize clearfix" id="u681"><!-- column -->
+         <div class="clearfix colelem" id="u867-4"><!-- content -->
+          <p id="u867-2">Magda</p>
+         </div>
+         <div class="clearfix colelem" id="u868-4"><!-- content -->
+          <p id="u868-2">Soniculture / USA</p>
+         </div>
+         <div class="colelem" id="u866"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u520popup">
+       <div class="ContainerGroup rgba-background clearfix" id="u520"><!-- stack box -->
+        <div class="Container museBGSize clearfix grpelem" id="u522"><!-- group -->
+         <div class="clearfix grpelem" id="u538"><!-- column -->
+          <div class="clearfix colelem" id="u539-4"><!-- content -->
+           <p>SVEN VATH</p>
+          </div>
+          <div class="colelem" id="u542"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu544-7"><!-- group -->
+           <div class="clearfix grpelem" id="u544-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u557"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu546-4"><!-- group -->
+           <div class="clearfix grpelem" id="u546-4"><!-- content -->
+            <p><span id="u546">www.svenvath.de</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u548-4"><!-- content -->
+            <p><span id="u548">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u550-4"><!-- content -->
+            <p><span id="u550">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u552-4"><!-- content -->
+            <p><span id="u552">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u554-4"><!-- content -->
+            <p><span id="u554">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u556-4"><!-- content -->
+            <p><span id="u556">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u541-4"><!-- content -->
+          <p>Cocoon Records / Germany</p>
+         </div>
+        </div>
+        <div class="Container invi museBGSize clearfix grpelem" id="u645"><!-- group -->
+         <div class="clearfix grpelem" id="u901"><!-- column -->
+          <div class="clearfix colelem" id="u902-4"><!-- content -->
+           <p>RON TRENT</p>
+          </div>
+          <div class="colelem" id="u911"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu904-7"><!-- group -->
+           <div class="clearfix grpelem" id="u904-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u912"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu905-4"><!-- group -->
+           <div class="clearfix grpelem" id="u905-4"><!-- content -->
+            <p><span id="u905">www.rontrent.com</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u906-4"><!-- content -->
+            <p><span id="u906">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u907-4"><!-- content -->
+            <p><span id="u907">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u908-4"><!-- content -->
+            <p><span id="u908">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u909-4"><!-- content -->
+            <p><span id="u909">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u910-4"><!-- content -->
+            <p><span id="u910">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u903-4"><!-- content -->
+          <p>Italian Foods / USA</p>
+         </div>
+        </div>
+        <div class="Container invi museBGSize clearfix grpelem" id="u672"><!-- group -->
+         <div class="clearfix grpelem" id="u914"><!-- column -->
+          <div class="clearfix colelem" id="u915-4"><!-- content -->
+           <p>LOCO DICE</p>
+          </div>
+          <div class="colelem" id="u924"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu917-7"><!-- group -->
+           <div class="clearfix grpelem" id="u917-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u925"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu918-4"><!-- group -->
+           <div class="clearfix grpelem" id="u918-4"><!-- content -->
+            <p><span id="u918">www.locodice.com</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u919-4"><!-- content -->
+            <p><span id="u919">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u920-4"><!-- content -->
+            <p><span id="u920">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u921-4"><!-- content -->
+            <p><span id="u921">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u922-4"><!-- content -->
+            <p><span id="u922">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u923-4"><!-- content -->
+            <p><span id="u923">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u916-4"><!-- content -->
+          <p>Germany</p>
+         </div>
+        </div>
+        <div class="Container invi museBGSize clearfix grpelem" id="u674"><!-- group -->
+         <div class="clearfix grpelem" id="u927"><!-- column -->
+          <div class="clearfix colelem" id="u928-4"><!-- content -->
+           <p>RICHIE HAWTIN</p>
+          </div>
+          <div class="colelem" id="u937"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu930-7"><!-- group -->
+           <div class="clearfix grpelem" id="u930-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u938"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu931-4"><!-- group -->
+           <div class="clearfix grpelem" id="u931-4"><!-- content -->
+            <p><span id="u931">www.rhawtin.de</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u932-4"><!-- content -->
+            <p><span id="u932">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u933-4"><!-- content -->
+            <p><span id="u933">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u934-4"><!-- content -->
+            <p><span id="u934">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u935-4"><!-- content -->
+            <p><span id="u935">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u936-4"><!-- content -->
+            <p><span id="u936">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u929-4"><!-- content -->
+          <p>Minus / Germany</p>
+         </div>
+        </div>
+        <div class="Container invi museBGSize clearfix grpelem" id="u676"><!-- group -->
+         <div class="clearfix grpelem" id="u940"><!-- column -->
+          <div class="clearfix colelem" id="u941-4"><!-- content -->
+           <p>MATADOR</p>
+          </div>
+          <div class="colelem" id="u950"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu943-7"><!-- group -->
+           <div class="clearfix grpelem" id="u943-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u951"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu944-4"><!-- group -->
+           <div class="clearfix grpelem" id="u944-4"><!-- content -->
+            <p><span id="u944">www.matador.com</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u945-4"><!-- content -->
+            <p><span id="u945">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u946-4"><!-- content -->
+            <p><span id="u946">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u947-4"><!-- content -->
+            <p><span id="u947">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u948-4"><!-- content -->
+            <p><span id="u948">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u949-4"><!-- content -->
+            <p><span id="u949">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u942-4"><!-- content -->
+          <p>Minus / Ireland</p>
+         </div>
+        </div>
+        <div class="Container invi museBGSize clearfix grpelem" id="u678"><!-- group -->
+         <div class="clearfix grpelem" id="u953"><!-- column -->
+          <div class="clearfix colelem" id="u954-4"><!-- content -->
+           <p>KENNY LARKIN</p>
+          </div>
+          <div class="colelem" id="u963"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu956-7"><!-- group -->
+           <div class="clearfix grpelem" id="u956-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u964"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu957-4"><!-- group -->
+           <div class="clearfix grpelem" id="u957-4"><!-- content -->
+            <p><span id="u957">www.klarkin.com</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u958-4"><!-- content -->
+            <p><span id="u958">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u959-4"><!-- content -->
+            <p><span id="u959">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u960-4"><!-- content -->
+            <p><span id="u960">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u961-4"><!-- content -->
+            <p><span id="u961">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u962-4"><!-- content -->
+            <p><span id="u962">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u955-4"><!-- content -->
+          <p>Warp Records / USA</p>
+         </div>
+        </div>
+        <div class="Container invi museBGSize clearfix grpelem" id="u680"><!-- group -->
+         <div class="clearfix grpelem" id="u966"><!-- column -->
+          <div class="clearfix colelem" id="u967-4"><!-- content -->
+           <p>SETH TROXLER</p>
+          </div>
+          <div class="colelem" id="u976"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu969-7"><!-- group -->
+           <div class="clearfix grpelem" id="u969-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u977"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu970-4"><!-- group -->
+           <div class="clearfix grpelem" id="u970-4"><!-- content -->
+            <p><span id="u970">www.sethtroxler.com</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u971-4"><!-- content -->
+            <p><span id="u971">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u972-4"><!-- content -->
+            <p><span id="u972">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u973-4"><!-- content -->
+            <p><span id="u973">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u974-4"><!-- content -->
+            <p><span id="u974">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u975-4"><!-- content -->
+            <p><span id="u975">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u968-4"><!-- content -->
+          <p>Spectral Sound / UK</p>
+         </div>
+        </div>
+        <div class="Container invi museBGSize clearfix grpelem" id="u682"><!-- group -->
+         <div class="clearfix grpelem" id="u979"><!-- column -->
+          <div class="clearfix colelem" id="u980-4"><!-- content -->
+           <p>MAGDA</p>
+          </div>
+          <div class="colelem" id="u989"><!-- simple frame --></div>
+          <div class="clearfix colelem" id="pu982-7"><!-- group -->
+           <div class="clearfix grpelem" id="u982-7"><!-- content -->
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <p>&nbsp;</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+           </div>
+           <div class="grpelem" id="u990"><!-- custom html -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131946394&amp;color=ff510d&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+          </div>
+          <div class="clearfix colelem" id="pu983-4"><!-- group -->
+           <div class="clearfix grpelem" id="u983-4"><!-- content -->
+            <p><span id="u983">www.magda.com</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u984-4"><!-- content -->
+            <p><span id="u984">facebook</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u985-4"><!-- content -->
+            <p><span id="u985">twitter</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u986-4"><!-- content -->
+            <p><span id="u986">soundcloud</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u987-4"><!-- content -->
+            <p><span id="u987">beatport</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u988-4"><!-- content -->
+            <p><span id="u988">instagram</span></p>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u981-4"><!-- content -->
+          <p>Soniculture / USA</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor">
+       <div class="PamphletPrevButton PamphletLightboxPart popup_element" id="u518"><!-- simple frame --></div>
+      </div>
+      <div class="popup_anchor">
+       <div class="PamphletNextButton PamphletLightboxPart popup_element" id="u524"><!-- simple frame --></div>
+      </div>
+      <div class="popup_anchor">
+       <div class="PamphletCloseButton PamphletLightboxPart popup_element" id="u516"><!-- simple frame --></div>
+      </div>
+     </div>
+    </div>
+    <div class="browser_width colelem" id="u481-bw">
+     <div class="museBGSize" id="u481"><!-- column -->
+      <div class="clearfix" id="u481_align_to_page">
+       <div class="position_content" id="u481_position_content">
+        <a class="anchor_item colelem" id="lookingfor"></a>
+        <div class="clearfix colelem" id="u482-5"><!-- content -->
+         <p>WE'RE LOOKING FOR <span id="u482-2">NEW TALENTS</span></p>
+        </div>
+        <div class="colelem" id="u483"><!-- simple frame --></div>
+        <div class="clearfix colelem" id="u485-4"><!-- content -->
+         <p>If you are DJ / performance artist lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <a class="nonblock nontext anim_swing btn_hover1 clearfix colelem" id="u493-4" href="index.html#contact"><!-- content --><p id="u493-2">Contact Us</p></a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu492"><!-- group -->
+     <div class="browser_width grpelem" id="u492-bw">
+      <div id="u492"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1148-bw">
+      <div id="u1148"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1149-bw">
+      <div id="u1149"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1150-bw">
+      <div id="u1150"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1151-bw">
+      <div id="u1151"><!-- column -->
+       <div class="clearfix" id="u1151_align_to_page">
+        <a class="anchor_item colelem" id="events"></a>
+        <div class="clearfix colelem" id="u498-5"><!-- content -->
+         <p>UPCOMING <span id="u498-2">EVENTS</span></p>
+        </div>
+        <div class="colelem" id="u499"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu1155"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1166"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u1168"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u1202"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u1219"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1156popup">
+       <div class="ContainerGroup clearfix" id="u1156"><!-- stack box -->
+        <div class="Container clearfix grpelem" id="u1158"><!-- group -->
+         <div class="Button clearfix grpelem" id="buttonu1034"><!-- container box -->
+          <div class="flyer01 museBGSize grpelem" id="u1050"><!-- simple frame --></div>
+          <div class="grpelem" id="u1054"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1051-4"><!-- content -->
+           <p>BeatS PARTY @ 69CLUB, NY</p>
+          </div>
+          <div class="clearfix grpelem" id="u1053-4"><!-- content -->
+           <p>12.12.2020</p>
+          </div>
+         </div>
+         <div class="Button clearfix grpelem" id="buttonu1067"><!-- container box -->
+          <div class="flyer02 museBGSize grpelem" id="u1068"><!-- simple frame --></div>
+          <div class="grpelem" id="u1071"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1069-4"><!-- content -->
+           <p>ESTETICA @ ROGUE, LONDON</p>
+          </div>
+          <div class="clearfix grpelem" id="u1070-4"><!-- content -->
+           <p>17.12.2020</p>
+          </div>
+         </div>
+         <div class="Button clearfix grpelem" id="buttonu1077"><!-- container box -->
+          <div class="flyer03 museBGSize grpelem" id="u1080"><!-- simple frame --></div>
+          <div class="grpelem" id="u1081"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1078-4"><!-- content -->
+           <p>SENSATION @ SIXTIE8, UFA</p>
+          </div>
+          <div class="clearfix grpelem" id="u1079-4"><!-- content -->
+           <p>20.12.2020</p>
+          </div>
+         </div>
+        </div>
+        <div class="Container invi clearfix grpelem" id="u1203"><!-- group -->
+         <div class="Button clearfix grpelem" id="buttonu1226"><!-- container box -->
+          <div class="flyer01 museBGSize grpelem" id="u1228"><!-- simple frame --></div>
+          <div class="grpelem" id="u1230"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1227-4"><!-- content -->
+           <p>BeatS PARTY @ 69CLUB, NY</p>
+          </div>
+          <div class="clearfix grpelem" id="u1229-4"><!-- content -->
+           <p>12.12.2020</p>
+          </div>
+         </div>
+         <div class="Button clearfix grpelem" id="buttonu1231"><!-- container box -->
+          <div class="flyer02 museBGSize grpelem" id="u1234"><!-- simple frame --></div>
+          <div class="grpelem" id="u1232"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1233-4"><!-- content -->
+           <p>ESTETICA @ ROGUE, LONDON</p>
+          </div>
+          <div class="clearfix grpelem" id="u1235-4"><!-- content -->
+           <p>17.12.2020</p>
+          </div>
+         </div>
+         <div class="Button clearfix grpelem" id="buttonu1221"><!-- container box -->
+          <div class="flyer03 museBGSize grpelem" id="u1225"><!-- simple frame --></div>
+          <div class="grpelem" id="u1224"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1222-4"><!-- content -->
+           <p>SENSATION @ SIXTIE8, UFA</p>
+          </div>
+          <div class="clearfix grpelem" id="u1223-4"><!-- content -->
+           <p>20.12.2020</p>
+          </div>
+         </div>
+        </div>
+        <div class="Container invi clearfix grpelem" id="u1220"><!-- group -->
+         <div class="Button clearfix grpelem" id="buttonu1241"><!-- container box -->
+          <div class="flyer01 museBGSize grpelem" id="u1243"><!-- simple frame --></div>
+          <div class="grpelem" id="u1245"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1242-4"><!-- content -->
+           <p>BeatS PARTY @ 69CLUB, NY</p>
+          </div>
+          <div class="clearfix grpelem" id="u1244-4"><!-- content -->
+           <p>12.12.2020</p>
+          </div>
+         </div>
+         <div class="Button clearfix grpelem" id="buttonu1246"><!-- container box -->
+          <div class="flyer02 museBGSize grpelem" id="u1249"><!-- simple frame --></div>
+          <div class="grpelem" id="u1247"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1248-4"><!-- content -->
+           <p>ESTETICA @ ROGUE, LONDON</p>
+          </div>
+          <div class="clearfix grpelem" id="u1250-4"><!-- content -->
+           <p>17.12.2020</p>
+          </div>
+         </div>
+         <div class="Button clearfix grpelem" id="buttonu1236"><!-- container box -->
+          <div class="flyer03 museBGSize grpelem" id="u1240"><!-- simple frame --></div>
+          <div class="grpelem" id="u1239"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u1237-4"><!-- content -->
+           <p>SENSATION @ SIXTIE8, UFA</p>
+          </div>
+          <div class="clearfix grpelem" id="u1238-4"><!-- content -->
+           <p>20.12.2020</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu1110"><!-- group -->
+     <div class="browser_width grpelem" id="u1110-bw">
+      <div id="u1110"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1152-bw">
+      <div id="u1152"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1153-bw">
+      <div id="u1153"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1154-bw">
+      <div id="u1154"><!-- column -->
+       <div class="clearfix" id="u1154_align_to_page">
+        <a class="anchor_item colelem" id="news"></a>
+        <div class="clearfix colelem" id="u1111-5"><!-- content -->
+         <p>LATEST <span id="u1111-2">NEWS</span></p>
+        </div>
+        <div class="colelem" id="u1112"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu1251"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u1305"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u1308"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u1324"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element" id="u1331"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u1256popup">
+       <div class="ContainerGroup clearfix" id="u1256"><!-- stack box -->
+        <div class="Container clearfix grpelem" id="u1257"><!-- group -->
+         <div class="museBGSize grpelem" id="u1317"><!-- simple frame --></div>
+         <div class="museBGSize grpelem" id="u1537"><!-- simple frame --></div>
+         <div class="clearfix grpelem" id="u1311-4"><!-- content -->
+          <p>ESTETIKA CLUB PARTY @ MIAMI</p>
+         </div>
+         <div class="clearfix grpelem" id="u1313-4"><!-- content -->
+          <p>12.12.2020 | Posted by Admin</p>
+         </div>
+         <div class="clearfix grpelem" id="u1315-9"><!-- content -->
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+          <p>&nbsp;</p>
+          <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+          <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+         </div>
+         <div class="grpelem" id="u1316"><!-- simple frame --></div>
+        </div>
+        <div class="Container invi clearfix grpelem" id="u1325"><!-- group -->
+         <div class="museBGSize grpelem" id="u1337"><!-- simple frame --></div>
+         <div class="museBGSize grpelem" id="u1538"><!-- simple frame --></div>
+         <div class="clearfix grpelem" id="u1333-4"><!-- content -->
+          <p>MC GOODWIN @ UNDERGROUND GARAGE</p>
+         </div>
+         <div class="clearfix grpelem" id="u1334-4"><!-- content -->
+          <p>13.12.2020 | Posted by Admin</p>
+         </div>
+         <div class="clearfix grpelem" id="u1335-9"><!-- content -->
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+          <p>&nbsp;</p>
+          <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+          <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+         </div>
+         <div class="grpelem" id="u1336"><!-- simple frame --></div>
+        </div>
+        <div class="Container invi clearfix grpelem" id="u1332"><!-- group -->
+         <div class="museBGSize grpelem" id="u1342"><!-- simple frame --></div>
+         <div class="museBGSize grpelem" id="u1539"><!-- simple frame --></div>
+         <div class="clearfix grpelem" id="u1338-4"><!-- content -->
+          <p>DJ DEEP @ STUDIO74</p>
+         </div>
+         <div class="clearfix grpelem" id="u1339-4"><!-- content -->
+          <p>17.12.2020 | Posted by Admin</p>
+         </div>
+         <div class="clearfix grpelem" id="u1340-9"><!-- content -->
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+          <p>&nbsp;</p>
+          <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+          <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+         </div>
+         <div class="grpelem" id="u1341"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu1355"><!-- group -->
+     <div class="browser_width grpelem" id="u1355-bw">
+      <div class="museBGSize" id="u1355"><!-- column -->
+       <div class="clearfix" id="u1355_align_to_page">
+        <div class="position_content" id="u1355_position_content">
+         <a class="anchor_item colelem" id="subscribe"></a>
+         <div class="clearfix colelem" id="u1356-5"><!-- content -->
+          <p>SUBSCRIBE TO <span id="u1356-2">NEWS &amp; UPDATES</span></p>
+         </div>
+         <div class="colelem" id="u1357"><!-- simple frame --></div>
+         <div class="clearfix colelem" id="u1358-4"><!-- content -->
+          <p>Do not worry! We hate spam too! You will receive only one letter a week.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <form class="form-grp clearfix grpelem" id="widgetu1359" method="post" enctype="multipart/form-data" action="scripts/form-u1359.php"><!-- none box -->
+      <div class="fld-grp clearfix grpelem" id="widgetu1368" data-required="true" data-type="email"><!-- none box -->
+       <label class="fld-label actAsDiv clearfix grpelem" id="u1369-3" for="widgetu1368_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1370-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1368_input" name="Email" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu1368_prompt" for="widgetu1368_input"><span class="actAsPara">Enter Email</span></label></span>
+      </div>
+      <div class="clearfix grpelem" id="u1374-4"><!-- content -->
+       <p>Submitting Form...</p>
+      </div>
+      <div class="clearfix grpelem" id="u1375-4"><!-- content -->
+       <p>The server encountered an error.</p>
+      </div>
+      <div class="clearfix grpelem" id="u1373-4"><!-- content -->
+       <p>Form received.</p>
+      </div>
+      <input class="submit-btn NoWrap grpelem" id="u1372-17" type="submit" value="" tabindex="2"/><!-- state-based BG images -->
+     </form>
+    </div>
+    <div class="clearfix colelem" id="pu1387"><!-- group -->
+     <div class="browser_width grpelem" id="u1387-bw">
+      <div id="u1387"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1388-bw">
+      <div id="u1388"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1389-bw">
+      <div id="u1389"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1390-bw">
+      <div id="u1390"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1391-bw">
+      <div id="u1391"><!-- group -->
+       <div class="clearfix" id="u1391_align_to_page">
+        <div class="grpelem" id="u1393"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u1443-bw">
+      <div id="u1443"><!-- group -->
+       <div class="clearfix" id="u1443_align_to_page">
+        <a class="anchor_item grpelem" id="faq"></a>
+        <div class="grpelem" id="u1394"><!-- simple frame --></div>
+        <div class="clearfix grpelem" id="pu1392-4"><!-- column -->
+         <div class="clearfix colelem" id="u1392-4"><!-- content -->
+          <p>F.A.Q.</p>
+         </div>
+         <ul class="AccordionWidget clearfix colelem" id="accordionu1403"><!-- vertical box -->
+          <li class="AccordionPanel clearfix colelem" id="u1414"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1418-4"><!-- content --><p>HOW DO I BOOK AN ARTIST?</p></div><div class="AccordionPanelContent clearfix colelem" id="u1415"><!-- group --><div class="clearfix grpelem" id="u1416-7"><!-- content --><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>&nbsp;</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p></div></div></li>
+          <li class="AccordionPanel clearfix colelem" id="u1424"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1425-4"><!-- content --><p>HOW DOES THE BOOKING PROCESS WORK?</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1426"><!-- group --><div class="clearfix grpelem" id="u1428-10"><!-- content --><p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p><p>&nbsp;</p><p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>&nbsp;</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p></div></div></li>
+          <li class="AccordionPanel clearfix colelem" id="u1429"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1430-4"><!-- content --><p>CAN I CONTACT AN ARTIST DIRECTLY?</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1431"><!-- group --><div class="clearfix grpelem" id="u1433-4"><!-- content --><p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div></li>
+          <li class="AccordionPanel clearfix colelem" id="u1434"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1437-4"><!-- content --><p>HOW DO I GET AN ARTIST PRESSPACK?</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1435"><!-- group --><div class="clearfix grpelem" id="u1441-7"><!-- content --><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>&nbsp;</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p></div></div></li>
+          <li class="AccordionPanel clearfix colelem" id="u1438"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1439-4"><!-- content --><p>WHO CAN I SEND DEMO TO?</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1440"><!-- group --><div class="clearfix grpelem" id="u1442-7"><!-- content --><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>&nbsp;</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p></div></div></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu1444"><!-- group -->
+     <div class="browser_width grpelem" id="u1444-bw">
+      <div id="u1444"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1451-bw">
+      <div id="u1451"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1452-bw">
+      <div id="u1452"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u1453-bw">
+      <div id="u1453"><!-- column -->
+       <div class="clearfix" id="u1453_align_to_page">
+        <div class="clearfix colelem" id="u1448-5"><!-- content -->
+         <p>TELL US <span id="u1448-2">WHAT YOU NEED</span></p>
+        </div>
+        <div class="colelem" id="u1449"><!-- simple frame --></div>
+        <div class="clearfix colelem" id="u1450-29"><!-- content -->
+         <p id="u1450-2">Welcome to our office</p>
+         <p id="u1450-4">Unit C2, St.Vincent's Trading Est.,</p>
+         <p id="u1450-6">Feeder Road,</p>
+         <p id="u1450-8">London, United Kingdom</p>
+         <p id="u1450-9">&nbsp;</p>
+         <p id="u1450-10">&nbsp;</p>
+         <p id="u1450-12">For booking inqueries please contact by</p>
+         <p id="u1450-15">Phone: <span id="u1450-14">+1 123 456 7890</span></p>
+         <p id="u1450-18">Fax: <span id="u1450-17">+1 123 456 7891</span></p>
+         <p id="u1450-21">E-mail: <span id="u1450-20">hello@perfectbeat.com</span></p>
+         <p id="u1450-22">&nbsp;</p>
+         <p id="u1450-23">&nbsp;</p>
+         <p id="u1450-25">Follow us on the web to get latest news and updates:</p>
+         <p id="u1450-27">#perfectbeat</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u1446-bw">
+      <div id="u1446"><!-- custom html -->
+       
+<iframe class="actAsDiv" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=Adobe%20Systems%20Inc%2C%20Park%20Avenue%2C%20San%20Jose%2C%20CA&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+
+</div>
+     </div>
+     <a class="anchor_item grpelem" id="contact"></a>
+     <form class="form-grp clearfix grpelem" id="widgetu1454" method="post" enctype="multipart/form-data" action="scripts/form-u1454.php"><!-- none box -->
+      <div class="fld-grp clearfix grpelem" id="widgetu1459" data-required="true"><!-- none box -->
+       <label class="fld-label actAsDiv clearfix grpelem" id="u1461-3" for="widgetu1459_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1460-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1459_input" name="custom_U1459" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu1459_prompt" for="widgetu1459_input"><span class="actAsPara">Enter Name</span></label></span>
+      </div>
+      <div class="fld-grp clearfix grpelem" id="widgetu1463" data-required="true" data-type="email"><!-- none box -->
+       <label class="fld-label actAsDiv clearfix grpelem" id="u1464-3" for="widgetu1463_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1465-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1463_input" name="Email" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu1463_prompt" for="widgetu1463_input"><span class="actAsPara">Enter Email</span></label></span>
+      </div>
+      <div class="clearfix grpelem" id="u1469-4"><!-- content -->
+       <p>Submitting Form...</p>
+      </div>
+      <div class="clearfix grpelem" id="u1470-4"><!-- content -->
+       <p>The server encountered an error.</p>
+      </div>
+      <div class="clearfix grpelem" id="u1468-4"><!-- content -->
+       <p>Form received.</p>
+      </div>
+      <input class="submit-btn NoWrap grpelem" id="u1467-17" type="submit" value="" tabindex="6"/><!-- state-based BG images -->
+      <div class="fld-grp clearfix grpelem" id="widgetu1455" data-required="false"><!-- none box -->
+       <label class="fld-label actAsDiv clearfix grpelem" id="u1458-3" for="widgetu1455_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+       <span class="fld-textarea actAsDiv clearfix grpelem" id="u1456-4"><!-- content --><textarea class="wrapped-input" id="widgetu1455_input" name="custom_U1455" tabindex="5"></textarea><label class="wrapped-input fld-prompt" id="widgetu1455_prompt" for="widgetu1455_input"><span class="actAsPara">Enter Your Message</span></label></span>
+      </div>
+     </form>
+    </div>
+    <div class="verticalspacer"></div>
+    <div class="browser_width colelem" id="u1473-bw">
+     <div id="u1473"><!-- group -->
+      <div class="clearfix" id="u1473_align_to_page">
+       <div class="clearfix grpelem" id="pu1474-5"><!-- column -->
+        <div class="clearfix colelem" id="u1474-5"><!-- content -->
+         <p>Perfect<span id="u1474-2">Beat</span></p>
+        </div>
+        <div class="clearfix colelem" id="u1475-4"><!-- content -->
+         <p>DJ Booking Agency Adobe Muse template by Vinyljunkie</p>
+        </div>
+       </div>
+       <a class="nonblock nontext social_btn_fb museBGSize grpelem" id="u1499" href="https://www.facebook.com/iamvinyljunkie" title="Facebook"><!-- simple frame --></a>
+       <a class="nonblock nontext social_btn_tw museBGSize grpelem" id="u1497" href="https://twitter.com/iamvinyljunkie" title="Twitter"><!-- simple frame --></a>
+       <a class="nonblock nontext social_btn_insta museBGSize grpelem" id="u1476" href="https://instagram.com/tools4dj/" title="Instagram"><!-- simple frame --></a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/menu_line.jpg" alt=""/>
+   <img class="preload" src="images/icon_fb_02.png" alt=""/>
+   <img class="preload" src="images/icon_twitter_02.png" alt=""/>
+   <img class="preload" src="images/icon_instagram_02.png" alt=""/>
+   <img class="preload" src="images/navigation_trigger_01.png" alt=""/>
+   <img class="preload" src="images/play_video_btn_02.png" alt=""/>
+   <img class="preload" src="images/service_arrow_03.png" alt=""/>
+   <img class="preload" src="images/service_arrow_01.png" alt=""/>
+   <img class="preload" src="images/dj_01_thumb_01.jpg" alt=""/>
+   <img class="preload" src="images/dj_thumb_arrow.png" alt=""/>
+   <img class="preload" src="images/dj_02_thumb_02.jpg" alt=""/>
+   <img class="preload" src="images/dj_03_thumb_02.jpg" alt=""/>
+   <img class="preload" src="images/dj_04_thumb_02.jpg" alt=""/>
+   <img class="preload" src="images/dj_05_thumb_02.jpg" alt=""/>
+   <img class="preload" src="images/dj_06_thumb_02.jpg" alt=""/>
+   <img class="preload" src="images/dj_07_thumb_02.jpg" alt=""/>
+   <img class="preload" src="images/dj_08_thumb_02.jpg" alt=""/>
+   <img class="preload" src="images/prev_btn_02.png" alt=""/>
+   <img class="preload" src="images/next_btn_02.png" alt=""/>
+   <img class="preload" src="images/close_btn_02.png" alt=""/>
+   <img class="preload" src="images/flyer_01_02.jpg" alt=""/>
+   <img class="preload" src="images/flyer_01_01.jpg" alt=""/>
+   <img class="preload" src="images/flyer_02_02.jpg" alt=""/>
+   <img class="preload" src="images/flyer_02_01.jpg" alt=""/>
+   <img class="preload" src="images/flyer_03_02.jpg" alt=""/>
+   <img class="preload" src="images/flyer_03_01.jpg" alt=""/>
+   <img class="preload" src="images/u1372-17-r.png" alt=""/>
+   <img class="preload" src="images/u1372-17-m.png" alt=""/>
+   <img class="preload" src="images/u1372-17-fs.png" alt=""/>
+   <img class="preload" src="images/u1467-17-r.png" alt=""/>
+   <img class="preload" src="images/u1467-17-m.png" alt=""/>
+   <img class="preload" src="images/u1467-17-fs.png" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?275725342" type="text/javascript"></script>
+  <script src="scripts/jquery.scrolleffects.js?206645848" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?3999102769" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?4042164668" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?185257658" type="text/javascript"></script>
+  <script src="scripts/webpro.js?3883484123" type="text/javascript"></script>
+  <script src="scripts/musewpslideshow.js?360574455" type="text/javascript"></script>
+  <script src="scripts/jquery.museoverlay.js?342093292" type="text/javascript"></script>
+  <script src="scripts/touchswipe.js?4218319045" type="text/javascript"></script>
+  <script src="scripts/musewpdisclosure.js?404074387" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+$('#u194').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0.2],"in":[0,Infinity]}]);/* scroll effect */
+Muse.Utils.resizeHeight()/* resize height */
+$('#u172').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0.1],"in":[0,Infinity]}]);/* scroll effect */
+$('#u187').registerBackgroundPositionScrollEffect([{"speed":[0,-0.1],"in":[-Infinity,0]},{"speed":[0.1,-0.1],"in":[0,Infinity]}]);/* scroll effect */
+$('#u180').registerBackgroundPositionScrollEffect([{"speed":[0,-0.1],"in":[-Infinity,0]},{"speed":[0,-0.1],"in":[0,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+$('#u201').registerBackgroundPositionScrollEffect([{"speed":[0,1.5],"in":[-Infinity,0]},{"speed":[-0.1,1.5],"in":[0,Infinity]}]);/* scroll effect */
+$('#u85').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0.7],"in":[0,Infinity]}]);/* scroll effect */
+$('#u75-5').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0.8],"in":[0,Infinity]}]);/* scroll effect */
+$('#u83-4').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,0]},{"speed":[0,0.8],"in":[0,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu1636', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1636 */
+Muse.Utils.initWidget('#pamphletu1688', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1688 */
+Muse.Utils.initWidget('#pamphletu1743', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1743 */
+Muse.Utils.initWidget('#pamphletu1783', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1783 */
+Muse.Utils.initWidget('#pamphletu1823', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1823 */
+Muse.Utils.initWidget('#pamphletu1863', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1863 */
+Muse.Utils.initWidget('#pamphletu1903', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1903 */
+Muse.Utils.initWidget('#pamphletu1943', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1943 */
+Muse.Utils.initWidget('#pamphletu1983', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1983 */
+Muse.Utils.initWidget('#pamphletu2003', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu2003 */
+Muse.Utils.initWidget('#pamphletu2043', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu2043 */
+$('#u216').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,0]},{"speed":[0,0.5],"in":[0,Infinity]}]);/* scroll effect */
+$('#u217').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1000]},{"speed":[0,0.1],"in":[1000,Infinity]}]);/* scroll effect */
+$('#u209').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1000]},{"speed":[0,0.7],"in":[1000,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#accordionu219', function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:false,defaultIndex:0}); });/* #accordionu219 */
+$('#u218').registerBackgroundPositionScrollEffect([{"speed":[0,0.5],"in":[-Infinity,1000]},{"speed":[0.2,2],"in":[1000,Infinity]}]);/* scroll effect */
+$('#u260').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,2000]},{"speed":[0,0.7],"in":[2000,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu267', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu267 */
+$('#u319').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3000]},{"speed":[0,0.2],"in":[3000,Infinity]}]);/* scroll effect */
+$('#u320').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,3000]},{"speed":[0,0.1],"in":[3000,Infinity]}]);/* scroll effect */
+$('#u321').registerBackgroundPositionScrollEffect([{"speed":[0,-0.1],"in":[-Infinity,3000]},{"speed":[0.1,-0.1],"in":[3000,Infinity]}]);/* scroll effect */
+$('#u322').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,3000]},{"speed":[0,0.7],"in":[3000,Infinity]}]);/* scroll effect */
+$('#u365').registerBackgroundPositionScrollEffect([{"speed":[0,1.5],"in":[-Infinity,3000]},{"speed":[-0.1,1.5],"in":[3000,Infinity]}]);/* scroll effect */
+$('#u366').registerBackgroundPositionScrollEffect([{"speed":[0.1,0.1],"in":[-Infinity,2800]},{"speed":[-0.1,0.2],"in":[2800,Infinity]}]);/* scroll effect */
+$('#u330').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,4000]},{"speed":[0,0.7],"in":[4000,Infinity]}]);/* scroll effect */
+$('#u638').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,4000]},{"speed":[0,0.5],"in":[4000,Infinity]}]);/* scroll effect */
+$('#u639').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,5000]},{"speed":[0,0.1],"in":[5000,Infinity]}]);/* scroll effect */
+$('#u640').registerBackgroundPositionScrollEffect([{"speed":[0,0.5],"in":[-Infinity,5000]},{"speed":[0.2,2],"in":[5000,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu511', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:700,hideAllContentsFirst:false,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu511 */
+$('#u481').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,6000.05]},{"speed":[0,0.7],"in":[6000.05,Infinity]}]);/* scroll effect */
+$('#u1148').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,6999.95]},{"speed":[0,0.2],"in":[6999.95,Infinity]}]);/* scroll effect */
+$('#u1149').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,6999.95]},{"speed":[0,0.1],"in":[6999.95,Infinity]}]);/* scroll effect */
+$('#u1150').registerBackgroundPositionScrollEffect([{"speed":[0,-0.1],"in":[-Infinity,6999.95]},{"speed":[0.1,-0.1],"in":[6999.95,Infinity]}]);/* scroll effect */
+$('#u1151').registerBackgroundPositionScrollEffect([{"speed":[0.1,0.1],"in":[-Infinity,6799.95]},{"speed":[-0.1,0.2],"in":[6799.95,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu1155', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:true,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1155 */
+$('#u1152').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,7000]},{"speed":[0,0.5],"in":[7000,Infinity]}]);/* scroll effect */
+$('#u1153').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,8000]},{"speed":[0,0.1],"in":[8000,Infinity]}]);/* scroll effect */
+$('#u1154').registerBackgroundPositionScrollEffect([{"speed":[0,0.5],"in":[-Infinity,8000]},{"speed":[0.2,2],"in":[8000,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu1251', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:200,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu1251 */
+$('#u1355').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,9000]},{"speed":[0,0.7],"in":[9000,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#widgetu1359', function(elem) { new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1359 */
+$('#u1388').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,9600]},{"speed":[0,0.2],"in":[9600,Infinity]}]);/* scroll effect */
+$('#u1389').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,9600]},{"speed":[0,0.1],"in":[9600,Infinity]}]);/* scroll effect */
+$('#u1390').registerBackgroundPositionScrollEffect([{"speed":[0,-0.1],"in":[-Infinity,9600]},{"speed":[0.1,-0.1],"in":[9600,Infinity]}]);/* scroll effect */
+$('#u1391').registerBackgroundPositionScrollEffect([{"speed":[0.1,0.1],"in":[-Infinity,9400]},{"speed":[-0.1,0.2],"in":[9400,Infinity]}]);/* scroll effect */
+$('#u1394').registerBackgroundPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,9599.95]},{"speed":[0,0.7],"in":[9599.95,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#accordionu1403', function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:0}); });/* #accordionu1403 */
+$('#u1443').registerBackgroundPositionScrollEffect([{"speed":[0,1.5],"in":[-Infinity,9599.95]},{"speed":[-0.1,1.5],"in":[9599.95,Infinity]}]);/* scroll effect */
+$('#u1451').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,9600.05]},{"speed":[0,0.5],"in":[9600.05,Infinity]}]);/* scroll effect */
+$('#u1452').registerBackgroundPositionScrollEffect([{"speed":[-0.1,0.9],"in":[-Infinity,10131.3]},{"speed":[0.1,0.2],"in":[10131.3,Infinity]}]);/* scroll effect */
+$('#u1453').registerBackgroundPositionScrollEffect([{"speed":[-0.1,0.5],"in":[-Infinity,10599.95]},{"speed":[0.2,2],"in":[10599.95,Infinity]}]);/* scroll effect */
+Muse.Utils.initWidget('#widgetu1454', function(elem) { new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1454 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

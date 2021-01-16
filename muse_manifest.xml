@@ -1,0 +1,163 @@
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="design4dj.com" resolutions="1x" timestamp="1447430245687">
+  <folder name="css">
+    <file name="site_global.css" crc="4184159348"/>
+    <file name="index.css" crc="113080564" ref="index"/>
+    <file name="iefonts_index.css" crc="409837187" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="jquery.counterup.min.js" crc="3831897152" seo="true" mt="1385401986000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="275725342" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:tablet>index:index"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="phone>index:tablet>index:index"/>
+    <file name="webpro.js" crc="3883484123" ref="phone>index:tablet>index:index"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="phone>index:tablet>index:index"/>
+    <file name="touchswipe.js" crc="4218319045" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.scrolleffects.js" crc="206645848" ref="phone>index:tablet>index:index"/>
+    <file name="musewpdisclosure.js" crc="404074387" ref="phone>index:tablet>index:index"/>
+    <file name="form_check.php" crc="3932029206" ref="phone>index:tablet>index:index"/>
+    <file name="form_throttle.php" crc="314685628" ref="phone>index:tablet>index:index"/>
+    <file name="form_process.php" crc="401030677" ref="phone>index:tablet>index:index"/>
+    <file name="form-u3436.php" crc="4010294173" ref="phone>index"/>
+    <file name="form-u3484.php" crc="389447898" ref="phone>index"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:tablet>index:index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:tablet>index:index"/>
+    <file name="museredirect.js" crc="3899419633" ref="tablet>index:index"/>
+    <file name="form-u2579.php" crc="4010294173" ref="tablet>index"/>
+    <file name="form-u2632.php" crc="169831377" ref="tablet>index"/>
+    <file name="form-u1359.php" crc="3985750035" ref="index"/>
+    <file name="form-u1454.php" crc="496380060" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="home-favicon.ico" crc="3954250221" ref="phone>index"/>
+    <file name="phone_pattern_home.png" crc="474686435" ref="phone>index"/>
+    <file name="dj_main_screen_phone.png" crc="4214411048" ref="phone>index"/>
+    <file name="icon_fb_01.png" crc="4239500576" ref="phone>index:tablet>index:index"/>
+    <file name="icon_fb_02.png" crc="166021042" ref="phone>index:tablet>index:index"/>
+    <file name="icon_twitter_01.png" crc="138485870" ref="phone>index:tablet>index:index"/>
+    <file name="icon_twitter_02.png" crc="317349111" ref="phone>index:tablet>index:index"/>
+    <file name="icon_instagram_01.png" crc="487539129" ref="phone>index:tablet>index:index"/>
+    <file name="icon_instagram_02.png" crc="376214835" ref="phone>index:tablet>index:index"/>
+    <file name="tablet_menu_01-u3587-fr.png" crc="3932482495" ref="phone>index"/>
+    <file name="tablet_menu_02.png" crc="3812433363" ref="phone>index:tablet>index"/>
+    <file name="phone_pattern_about.png" crc="3933586438" ref="phone>index"/>
+    <file name="video_background.jpg" crc="4031743232" ref="phone>index:tablet>index:index"/>
+    <file name="play_video_btn_01_mobile.png" crc="39031905" ref="phone>index"/>
+    <file name="play_video_btn_02_mobile.png" crc="4232250196" ref="phone>index"/>
+    <file name="service_arrow_01.png" crc="4072700204" ref="phone>index:tablet>index:index"/>
+    <file name="service_arrow_03.png" crc="148855038" ref="phone>index:tablet>index:index"/>
+    <file name="dj_services_screen_phone.png" crc="3817218568" ref="phone>index"/>
+    <file name="facts_background.jpg" crc="3940941884" ref="phone>index:tablet>index:index"/>
+    <file name="djs_arrow_phone_01.png" crc="243311762" ref="phone>index"/>
+    <file name="djs_arrow_phone_02.png" crc="367278987" ref="phone>index"/>
+    <file name="dj_01_thumb_02.jpg" crc="4090945795" ref="phone>index:tablet>index:index"/>
+    <file name="dj_02_thumb_01.jpg" crc="462526258" ref="phone>index:tablet>index:index"/>
+    <file name="dj_03_thumb_01.jpg" crc="451024673" ref="phone>index:tablet>index:index"/>
+    <file name="dj_04_thumb_01.jpg" crc="288414405" ref="phone>index:tablet>index:index"/>
+    <file name="dj_05_thumb_01.jpg" crc="3955977800" ref="phone>index:tablet>index:index"/>
+    <file name="dj_06_thumb_01.jpg" crc="3843552970" ref="phone>index:tablet>index:index"/>
+    <file name="dj_07_thumb_01.jpg" crc="362777765" ref="phone>index:tablet>index:index"/>
+    <file name="dj_08_thumb_01.jpg" crc="59614670" ref="phone>index:tablet>index:index"/>
+    <file name="lookingfor_background.jpg" crc="362350014" ref="phone>index:tablet>index:index"/>
+    <file name="flyer_01_01-ieu3325-fr.png" crc="3924780078" ref="phone>index"/>
+    <file name="flyer_01_01.jpg" crc="213453199" ref="phone>index:tablet>index:index"/>
+    <file name="flyer_01_02.jpg" crc="255790680" ref="phone>index:tablet>index:index"/>
+    <file name="flyer_arrow.png" crc="187896970" ref="phone>index:tablet>index:index"/>
+    <file name="flyer_02_01.jpg" crc="338235567" ref="phone>index:tablet>index:index"/>
+    <file name="flyer_02_02.jpg" crc="266956160" ref="phone>index:tablet>index:index"/>
+    <file name="flyer_03_01.jpg" crc="4170036592" ref="phone>index:tablet>index:index"/>
+    <file name="flyer_03_02.jpg" crc="70540673" ref="phone>index:tablet>index:index"/>
+    <file name="news_01.jpg" crc="17433003" ref="phone>index:tablet>index:index"/>
+    <file name="news_02.jpg" crc="4285784017" ref="phone>index:tablet>index:index"/>
+    <file name="news_03.jpg" crc="492643656" ref="phone>index:tablet>index:index"/>
+    <file name="subscribe_background.jpg" crc="117077044" ref="phone>index:tablet>index:index"/>
+    <file name="u3444-17.png" crc="4232524826" ref="phone>index"/>
+    <file name="u3444-17-r.png" crc="4232524826" ref="phone>index"/>
+    <file name="u3444-17-m.png" crc="4232524826" ref="phone>index"/>
+    <file name="u3444-17-fs.png" crc="4200073958" ref="phone>index"/>
+    <file name="dj_faq_screen_phone.png" crc="3955348989" ref="phone>index"/>
+    <file name="u3486-17.png" crc="165091645" ref="phone>index"/>
+    <file name="u3486-17-r.png" crc="3772869380" ref="phone>index"/>
+    <file name="u3486-17-m.png" crc="3772869380" ref="phone>index"/>
+    <file name="u3486-17-fs.png" crc="10647231" ref="phone>index"/>
+    <file name="tablet_pattern_home.png" crc="4244350984" ref="tablet>index"/>
+    <file name="menu_line.jpg" crc="4227874502" ref="tablet>index:index"/>
+    <file name="tablet_pattern_about.png" crc="415099250" ref="tablet>index"/>
+    <file name="dj_about_screen.png" crc="454835427" ref="tablet>index:index"/>
+    <file name="dj_main_screen_tablet.png" crc="3819483813" ref="tablet>index"/>
+    <file name="tablet_menu_01-u2755-fr.png" crc="3932482495" ref="tablet>index"/>
+    <file name="play_video_btn_01.png" crc="4252127549" ref="tablet>index:index"/>
+    <file name="play_video_btn_02.png" crc="254709281" ref="tablet>index:index"/>
+    <file name="tablet_pattern_services.png" crc="4029389620" ref="tablet>index"/>
+    <file name="dj_services_screen.png" crc="4209588507" ref="tablet>index:index"/>
+    <file name="tablet_pattern_djs.png" crc="108030254" ref="tablet>index"/>
+    <file name="dj_01_thumb_01.jpg" crc="279052483" ref="tablet>index:index"/>
+    <file name="dj_thumb_arrow.png" crc="4016227614" ref="tablet>index:index"/>
+    <file name="dj_02_thumb_02.jpg" crc="3969691954" ref="tablet>index:index"/>
+    <file name="dj_03_thumb_02.jpg" crc="489794238" ref="tablet>index:index"/>
+    <file name="dj_04_thumb_02.jpg" crc="92006074" ref="tablet>index:index"/>
+    <file name="dj_05_thumb_02.jpg" crc="3819729989" ref="tablet>index:index"/>
+    <file name="dj_06_thumb_02.jpg" crc="219088421" ref="tablet>index:index"/>
+    <file name="dj_07_thumb_02.jpg" crc="127555501" ref="tablet>index:index"/>
+    <file name="dj_08_thumb_02.jpg" crc="4021304643" ref="tablet>index:index"/>
+    <file name="dj_01_back.jpg" crc="3920880322" ref="tablet>index:index"/>
+    <file name="dj_02_back.jpg" crc="388830585" ref="tablet>index:index"/>
+    <file name="dj_03_back.jpg" crc="96024486" ref="tablet>index:index"/>
+    <file name="dj_04_back.jpg" crc="4048914742" ref="tablet>index:index"/>
+    <file name="dj_05_back.jpg" crc="4199386317" ref="tablet>index:index"/>
+    <file name="dj_06_back.jpg" crc="6113886" ref="tablet>index:index"/>
+    <file name="dj_07_back.jpg" crc="183625550" ref="tablet>index:index"/>
+    <file name="dj_08_back.jpg" crc="4251216340" ref="tablet>index:index"/>
+    <file name="prev_btn_01.png" crc="181675029" ref="tablet>index:index"/>
+    <file name="prev_btn_02.png" crc="323870516" ref="tablet>index:index"/>
+    <file name="next_btn_01.png" crc="428811995" ref="tablet>index:index"/>
+    <file name="next_btn_02.png" crc="4212568634" ref="tablet>index:index"/>
+    <file name="close_btn_01.png" crc="240677243" ref="tablet>index:index"/>
+    <file name="close_btn_02.png" crc="4275843135" ref="tablet>index:index"/>
+    <file name="u2585-17.png" crc="519197009" ref="tablet>index"/>
+    <file name="u2585-17-r.png" crc="47612499" ref="tablet>index"/>
+    <file name="u2585-17-m.png" crc="47612499" ref="tablet>index"/>
+    <file name="u2585-17-fs.png" crc="4259195221" ref="tablet>index"/>
+    <file name="dj_faq_screen.png" crc="251864230" ref="tablet>index:index"/>
+    <file name="tablet_pattern_home_03.png" crc="197786306" ref="tablet>index"/>
+    <file name="u2647-17.png" crc="111565454" ref="tablet>index"/>
+    <file name="u2647-17-r.png" crc="165091645" ref="tablet>index"/>
+    <file name="u2647-17-m.png" crc="165091645" ref="tablet>index"/>
+    <file name="u2647-17-fs.png" crc="10647231" ref="tablet>index"/>
+    <file name="pattern_03.png" crc="3847776260" ref="index"/>
+    <file name="pattern_02.png" crc="166461100" ref="index"/>
+    <file name="pattern_06.png" crc="4189457556" ref="index"/>
+    <file name="pattern_01.png" crc="3783445911" ref="index"/>
+    <file name="pattern_07.png" crc="4019937024" ref="index"/>
+    <file name="dj_main_screen.png" crc="3885018854" ref="index"/>
+    <file name="navigation_trigger_02.png" crc="185104864" ref="index"/>
+    <file name="navigation_trigger_01.png" crc="263177377" ref="index"/>
+    <file name="u1372-17.png" crc="519197009" ref="index"/>
+    <file name="u1372-17-r.png" crc="47612499" ref="index"/>
+    <file name="u1372-17-m.png" crc="47612499" ref="index"/>
+    <file name="u1372-17-fs.png" crc="4259195221" ref="index"/>
+    <file name="u1467-17.png" crc="111565454" ref="index"/>
+    <file name="u1467-17-r.png" crc="165091645" ref="index"/>
+    <file name="u1467-17-m.png" crc="165091645" ref="index"/>
+    <file name="u1467-17-fs.png" crc="10647231" ref="index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="369511512" ref="tablet>index"/>
+      <file name="iefonts_index.css" crc="4012068103" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4237521705" seo="true" mt="1447430228510" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="319123639" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="3994091854" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="3860978741" seo="true" mt="1447430201174" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4082744025" seo="true" mt="1447430228512" redirect="true"/>
+</manifest>
