@@ -124,6 +124,29 @@
 	margin-right: 50px;
 }
 
+#uLanguage
+{
+	width: 95px;
+	min-height: 34px;
+	background-color: transparent;
+	position: relative;
+	margin-left: 25px;
+}
+.languageText{
+	padding-right: 10px;
+}
+
+.caret{
+	display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
 #u107
 {
 	width: 69px;
