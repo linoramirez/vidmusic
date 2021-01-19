@@ -115,6 +115,15 @@
   display: inline-block;
 }
 
+#uLogo
+{
+	width: 95px;
+	min-height: 34px;
+	background-color: transparent;
+	position: relative;
+	margin-right: 50px;
+}
+
 #u107
 {
 	width: 69px;
