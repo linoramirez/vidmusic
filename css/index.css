@@ -668,7 +668,6 @@
 	position: fixed;
 	top: 73px;
 	left: 0px;
-	//background: transparent url("../images/frame5.png") no-repeat left top;
 }
 
 #u75-5
@@ -684,7 +683,7 @@
 	font-family: bebas-neue, sans-serif;
 	font-weight: 400;
 	position: fixed;
-	top: 221px;
+	top: 295px;
 	left: 125px;
 }
 
@@ -694,7 +693,7 @@
 	width: 730px;
 	min-height: 28px;
 	background-color: transparent;
-	color: #3D3D3D;
+	color: #FFF;
 	font-size: 18px;
 	text-align: center;
 	letter-spacing: 1px;
@@ -702,7 +701,7 @@
 	font-family: lato, sans-serif;
 	font-weight: 300;
 	position: fixed;
-	top: 350px;
+	top: 400px;
 	left: 220px;
 }
 
@@ -2585,7 +2584,6 @@
 
 #u75,#u295-2
 {
-	//color: #FF510D;
 	color: #FFFFFF;
 }
 
