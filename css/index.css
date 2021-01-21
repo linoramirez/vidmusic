@@ -83,7 +83,7 @@
 {
 	z-index: 7;
 	min-height: 1000px;
-	background: transparent url("../images/pattern_07.png") repeat-y center top;
+	background: transparent url("../images/frame5.png") no-repeat left top;
 }
 
 #u201_align_to_page
@@ -668,7 +668,7 @@
 	position: fixed;
 	top: 73px;
 	left: 0px;
-	background: transparent url("../images/dj_main_screen.png") no-repeat left top;
+	//background: transparent url("../images/frame5.png") no-repeat left top;
 }
 
 #u75-5
@@ -2585,7 +2585,8 @@
 
 #u75,#u295-2
 {
-	color: #FF510D;
+	//color: #FF510D;
+	color: #FFFFFF;
 }
 
 #u295-4
@@ -9611,7 +9612,7 @@
 	position: relative;
 }
 
-#u75-2,#u307-2,#u423-2,#u479-2,#u482-2,#u498-2,#u1111-2,#u1356-2,#u1448-2,#u1474-2
+#u307-2,#u423-2,#u479-2,#u482-2,#u498-2,#u1111-2,#u1356-2,#u1448-2,#u1474-2
 {
 	color: #0DE5FF;
 }
