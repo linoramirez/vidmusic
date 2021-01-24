@@ -559,7 +559,8 @@
 	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
+	background-color: #4f514d;
+	border-radius: 30px;
 	position: relative;
 	margin-right: -10000px;
 	background-size: contain;
@@ -571,15 +572,14 @@
 	height: 50px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/icon_fb_02.png") no-repeat center center;
+	background: #4f514d url("../images/icon_fb_02.png") no-repeat center center;
 	background-size: contain;
 }
 
 .social_btn_fb
 {
 	border-style: none;
-	border-color: #000000;
-	background: transparent url("../images/icon_fb_01.png") no-repeat center center;
+	background: #4f514d url("../images/icon_fb_01.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -590,7 +590,8 @@
 	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
+	background-color: #4f514d;
+	border-radius: 30px;
 	position: relative;
 	margin-right: -10000px;
 	left: 60px;
@@ -603,15 +604,14 @@
 	height: 50px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/icon_twitter_02.png") no-repeat center center;
+	background: #4f514d url("../images/icon_twitter_02.png") no-repeat center center;
 	background-size: contain;
 }
 
 .social_btn_tw
 {
 	border-style: none;
-	border-color: #000000;
-	background: transparent url("../images/icon_twitter_01.png") no-repeat center center;
+	background: #4f514d url("../images/icon_twitter_01.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -622,7 +622,8 @@
 	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
+	background-color: #4f514d;
+	border-radius: 30px;
 	position: relative;
 	margin-right: -10000px;
 	left: 119px;
@@ -635,15 +636,14 @@
 	height: 50px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/icon_instagram_02.png") no-repeat center center;
+	background: #4f514d url("../images/icon_instagram_02.png") no-repeat center center;
 	background-size: contain;
 }
 
 .social_btn_insta
 {
 	border-style: none;
-	border-color: #000000;
-	background: transparent url("../images/icon_instagram_01.png") no-repeat center center;
+	background: #4f514d url("../images/icon_instagram_01.png") no-repeat center center;
 	background-size: contain;
 }
 
