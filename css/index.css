@@ -2177,12 +2177,13 @@
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #2FBFED;
+	font-size: 40px;
+  line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u231-4:hover
@@ -2253,11 +2254,11 @@
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #2FBFED;
+	font-size: 40px;
+  line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
 }
 
@@ -2265,7 +2266,7 @@
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
 }
@@ -2330,11 +2331,11 @@
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #2FBFED;
+	font-size: 40px;
+  line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
 }
 
@@ -2407,11 +2408,11 @@
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #2FBFED;
+	font-size: 40px;
+  line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
 }
 
@@ -2831,7 +2832,7 @@
 
 #u231-4.AccordionPanelTabOpen p,#u234-4.AccordionPanelTabOpen p,#u238-4.AccordionPanelTabOpen p,#u241-4.AccordionPanelTabOpen p,#buttonu367:hover #u394-4 p
 {
-	color: #FF510D;
+	color: #2FBFED;
 	visibility: inherit;
 }
 

@@ -75,7 +75,7 @@
 	line-height: 60px;
 	font-size: 60px;
 	text-align: center;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -161,7 +161,7 @@
 	color: #FCFCFC;
 	text-align: center;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -260,7 +260,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -309,7 +309,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -358,7 +358,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -407,7 +407,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -456,7 +456,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -505,7 +505,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -554,7 +554,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -618,7 +618,7 @@
 	color: #FFFFFF;
 	font-size: 22px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -726,10 +726,10 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-indent: -10px;
-	color: #FF510D;
+	color: #2FBFED
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -778,7 +778,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 20px;
 	position: relative;
@@ -806,7 +806,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -855,7 +855,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 20px;
 	position: relative;
@@ -883,7 +883,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -932,7 +932,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 20px;
 	position: relative;
@@ -960,7 +960,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -991,7 +991,7 @@
 
 #u2978-4.AccordionPanelTabOpen p,#u2965-4.AccordionPanelTabOpen p,#u2983-4.AccordionPanelTabOpen p,#u2970-4.AccordionPanelTabOpen p
 {
-	color: #FF510D;
+	color: #2FBFED;
 	visibility: inherit;
 	text-indent: -10px;
 }
@@ -1024,7 +1024,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 18px;
 	position: relative;
@@ -1101,7 +1101,7 @@
 	font-size: 36px;
 	text-align: right;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -1202,7 +1202,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 77px;
@@ -1268,7 +1268,7 @@
 	color: #3D3D3D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -1297,7 +1297,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -3px;
 	margin-bottom: -3px;
@@ -1346,7 +1346,7 @@
 	color: #3D3D3D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -1375,7 +1375,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -3px;
 	margin-bottom: -3px;
@@ -1424,7 +1424,7 @@
 	color: #3D3D3D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -1453,7 +1453,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -3px;
 	margin-bottom: -3px;
@@ -1510,7 +1510,7 @@
 	color: #3D3D3D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -1539,7 +1539,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -3px;
 	margin-bottom: -3px;
@@ -1596,7 +1596,7 @@
 	color: #3D3D3D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -1634,7 +1634,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -3px;
 	margin-bottom: -3px;
@@ -1696,7 +1696,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 74px;
@@ -1757,7 +1757,7 @@
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
-	font-family: montserrat, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	left: -1px;
 	position: relative;
@@ -1789,7 +1789,7 @@
 	color: #FFFFFF;
 	font-size: 18px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	left: -1px;
 	margin-top: 1px;
@@ -1834,7 +1834,7 @@
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
-	font-family: montserrat, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	left: -1px;
 	position: relative;
@@ -1859,7 +1859,7 @@
 	color: #FFFFFF;
 	font-size: 18px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	left: -1px;
 	margin-top: 1px;
@@ -1910,7 +1910,7 @@
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
-	font-family: montserrat, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	left: -1px;
 	position: relative;
@@ -1935,7 +1935,7 @@
 	color: #FFFFFF;
 	font-size: 18px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	left: -1px;
 	margin-top: 1px;
@@ -1988,7 +1988,7 @@
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: center;
-	font-family: montserrat, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	left: -1px;
 	position: relative;
@@ -2022,7 +2022,7 @@
 	color: #FFFFFF;
 	font-size: 18px;
 	text-align: center;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	left: -1px;
 	margin-top: 1px;
@@ -2071,7 +2071,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 77px;
@@ -2174,7 +2174,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -2199,7 +2199,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2212,7 +2212,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2226,7 +2226,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2239,7 +2239,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2253,7 +2253,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2266,7 +2266,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2342,7 +2342,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -2367,7 +2367,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2380,7 +2380,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2394,7 +2394,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2407,7 +2407,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2421,7 +2421,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2434,7 +2434,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2510,7 +2510,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -2535,7 +2535,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2548,7 +2548,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2562,7 +2562,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2575,7 +2575,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2589,7 +2589,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2602,7 +2602,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2678,7 +2678,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -2703,7 +2703,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2716,7 +2716,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2730,7 +2730,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2743,7 +2743,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2757,7 +2757,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2770,7 +2770,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2846,7 +2846,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -2871,7 +2871,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2884,7 +2884,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2898,7 +2898,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2911,7 +2911,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2925,7 +2925,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -2938,7 +2938,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3014,7 +3014,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -3039,7 +3039,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3052,7 +3052,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3066,7 +3066,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3079,7 +3079,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3093,7 +3093,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3106,7 +3106,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3182,7 +3182,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -3207,7 +3207,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3220,7 +3220,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3234,7 +3234,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3247,7 +3247,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3261,7 +3261,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3274,7 +3274,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3334,7 +3334,7 @@
 	font-size: 30px;
 	line-height: 30px;
 	color: #FF510D;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 }
 
@@ -3343,7 +3343,7 @@
 	font-size: 14px;
 	line-height: 14px;
 	color: #3D3D3D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 }
 
@@ -3378,7 +3378,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 22px;
 	position: relative;
@@ -3409,7 +3409,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3431,7 +3431,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3454,7 +3454,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3476,7 +3476,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3496,7 +3496,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3518,7 +3518,7 @@
 	min-height: 32px;
 	background-color: transparent;
 	color: #FF510D;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 	position: relative;
 	margin-right: -10000px;
@@ -3564,7 +3564,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 74px;
@@ -3591,7 +3591,7 @@
 	color: #FFFFFF;
 	font-size: 16px;
 	line-height: 22px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-left: 20px;
 	margin-top: 50px;
@@ -3608,7 +3608,7 @@
 	color: #FFFFFF;
 	text-align: center;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 6px;
@@ -3654,7 +3654,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 77px;
@@ -3772,7 +3772,7 @@
 	color: #3D3D3D;
 	font-size: 30px;
 	line-height: 30px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -3788,7 +3788,7 @@
 	color: #3D3D3D;
 	font-size: 14px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -3877,7 +3877,7 @@
 	color: #3D3D3D;
 	font-size: 30px;
 	line-height: 30px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -3908,7 +3908,7 @@
 	color: #3D3D3D;
 	font-size: 14px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -4018,7 +4018,7 @@
 	color: #3D3D3D;
 	font-size: 30px;
 	line-height: 30px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -4064,7 +4064,7 @@
 	color: #3D3D3D;
 	font-size: 14px;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -4173,7 +4173,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 91px;
@@ -4246,7 +4246,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-top: 16px;
 	position: relative;
@@ -4261,7 +4261,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 12px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -1px;
 	margin-bottom: -1px;
@@ -4287,7 +4287,7 @@
 	color: #3D3D3D;
 	font-size: 14px;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 30px;
 	position: relative;
@@ -4325,7 +4325,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-top: 16px;
 	position: relative;
@@ -4340,7 +4340,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 12px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -1px;
 	margin-bottom: -1px;
@@ -4366,7 +4366,7 @@
 	color: #3D3D3D;
 	font-size: 14px;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 30px;
 	position: relative;
@@ -4404,7 +4404,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-top: 16px;
 	position: relative;
@@ -4419,7 +4419,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 12px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	top: -1px;
 	margin-bottom: -1px;
@@ -4445,7 +4445,7 @@
 	color: #3D3D3D;
 	font-size: 14px;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 30px;
 	position: relative;
@@ -4553,7 +4553,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 77px;
@@ -4578,7 +4578,7 @@
 	min-height: 60px;
 	background-color: transparent;
 	color: #FCFCFC;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-left: 20px;
 	margin-top: 143px;
@@ -4656,7 +4656,7 @@
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -4716,7 +4716,7 @@
 	width: 204px;
 	min-height: 18px;
 	color: #C4C4C4;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	padding: 14px 6px;
 }
@@ -4844,7 +4844,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 91px;
@@ -4894,7 +4894,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -4942,7 +4942,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -4969,7 +4969,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -5009,7 +5009,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -5036,7 +5036,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -5075,7 +5075,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -5103,7 +5103,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -5142,7 +5142,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -5169,7 +5169,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -5223,7 +5223,7 @@
 	background-color: transparent;
 	color: #3D3D3D;
 	line-height: 20px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
@@ -5264,7 +5264,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 75px;
@@ -5292,7 +5292,7 @@
 	color: #FF510D;
 	font-size: 36px;
 	line-height: 36px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	margin-left: 20px;
 	margin-top: 490px;
@@ -5325,7 +5325,7 @@
 
 #u3507-2
 {
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 }
 
@@ -5350,7 +5350,7 @@
 	background-color: transparent;
 	font-size: 16px;
 	line-height: 22px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-left: 20px;
 	margin-top: 40px;
@@ -5359,13 +5359,13 @@
 
 #u3507-4,#u3507-6,#u3507-8,#u3508-4,#u3508-7,#u3508-10
 {
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 }
 
 #u3508-15
 {
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 700;
 }
 
@@ -5522,7 +5522,7 @@
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -5629,7 +5629,7 @@
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -5689,7 +5689,7 @@
 	width: 328px;
 	min-height: 22px;
 	color: #C4C4C4;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	padding: 14px 6px;
 }
@@ -5718,7 +5718,7 @@
 	color: #999999;
 	line-height: 1;
 	font-size: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
@@ -5748,7 +5748,7 @@
 	color: #D7244C;
 	line-height: 1;
 	font-size: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
@@ -5785,7 +5785,7 @@
 {
 	color: #999999;
 	font-size: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
@@ -5887,7 +5887,7 @@
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
@@ -5953,7 +5953,7 @@
 	width: 328px;
 	min-height: 122px;
 	color: #C4C4C4;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	padding: 14px 6px;
 }
@@ -5994,7 +5994,7 @@
 	color: #FF510D;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: bebas-neue, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 400;
 	position: relative;
 }
@@ -6013,7 +6013,7 @@
 	color: #3D3D3D;
 	font-size: 12px;
 	line-height: 12px;
-	font-family: lato, sans-serif;
+	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-top: 1px;
 	position: relative;
