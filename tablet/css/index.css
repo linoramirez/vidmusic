@@ -192,7 +192,7 @@
 	background: transparent url("../../images/menu_line.jpg") no-repeat center bottom;
 }
 
-#u2174-4
+#menu_options
 {
 	width: 82px;
 	min-height: 19px;
@@ -204,7 +204,7 @@
 	font-size: 16px;
 	text-align: center;
 	font-family: Sora, sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
 }
