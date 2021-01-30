@@ -192,7 +192,7 @@
 	background: transparent url("../../images/menu_line.jpg") no-repeat center bottom;
 }
 
-#menu_options
+.menu_options
 {
 	width: 82px;
 	min-height: 19px;
@@ -1014,8 +1014,8 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 18px;
-	left: 169px;
+	margin-top: 10px;
+	left: 110px;
 }
 
 #u2784
@@ -1068,7 +1068,7 @@
 
 #u2787:hover #u2788-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 83px;
@@ -1077,7 +1077,7 @@
 
 #u2787.MuseMenuActive #u2788-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 83px;
@@ -1134,7 +1134,7 @@
 
 #u2838:hover #u2839-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 84px;
@@ -1191,7 +1191,7 @@
 
 #u2838.MuseMenuActive #u2839-4,#u2799:hover #u2802-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 84px;
@@ -1248,7 +1248,7 @@
 
 #u2799.MuseMenuActive #u2802-4,#u2792:hover #u2794-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 84px;
@@ -1305,7 +1305,7 @@
 
 #u2792.MuseMenuActive #u2794-4,#u2813:hover #u2816-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 84px;
@@ -1362,7 +1362,7 @@
 
 #u2813.MuseMenuActive #u2816-4,#u2771:hover #u2772-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 84px;
@@ -1393,19 +1393,6 @@
 	position: relative;
 }
 
-#uLogo
-{
-	width: 95px;
-	min-height: 34px;
-	background-color: transparent;
-	position: relative;
-	margin-right: 50px;
-}
-
-.languageText{
-	padding-right: 10px;
-}
-
 #u2771.MuseMenuActive,#u2806:hover
 {
 	width: 84px;
@@ -1432,7 +1419,7 @@
 
 #u2771.MuseMenuActive #u2772-4,#u2806:hover #u2807-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 84px;
@@ -1494,7 +1481,16 @@
 	margin-right: -10000px;
 }
 
-#u2806.MuseMenuActive #u2807-4,#u2780:hover #u2782-4
+#u2806.MuseMenuActive #u2807-4
+{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	min-height: 19px;
+	width: 84px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u2780:hover #u2782-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -1505,14 +1501,15 @@
 
 #u2780.MuseMenuActive #u2782-4
 {
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	min-height: 19px;
 	width: 84px;
 	margin: 0px -10000px 0px 0px;
 }
 
-#u2780:hover #u2782-4 p
+#u2780:hover #u2782-4 p,
+#u2780:hover #u2782-4 span
 {
 	color: #2FBFED;
 	visibility: inherit;
@@ -8413,4 +8410,38 @@ body
 #page .verticalspacer
 {
 	clear: both;
+}
+
+.languageText{
+	padding-right: 10px;
+}
+
+.menu_options
+{
+	width: 82px;
+	min-height: 19px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	line-height: 19px;
+	color: #3D3D3D;
+	font-size: 16px;
+	text-align: center;
+	font-family: Sora, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+}
+
+.menu_options_vert
+{
+  padding-top: 10px;
+}
+
+#uLogo
+{
+	width: 95px;
+	min-height: 34px;
+	background-color: transparent;
+	position: relative;
 }
