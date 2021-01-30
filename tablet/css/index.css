@@ -162,9 +162,8 @@
 	border-color: transparent;
 	background-color: transparent;
 	position: relative;
-	margin-right: -10000px;
-	left: 219px;
 	padding: 15px 0;
+	margin-right: -10000px;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(16px);
   text-align: center;
@@ -177,6 +176,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
+	left: 140px;
 }
 
 #u2172
@@ -234,7 +234,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 84px;
+	left: 230px;
 }
 
 #u2214
@@ -292,7 +292,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 168px;
+	left: 325px;
 }
 
 #u2207
@@ -350,7 +350,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 252px;
+	left: 415px;
 }
 
 #u2179
@@ -408,7 +408,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 336px;
+	left: 500px;
 }
 
 #u2200
@@ -466,7 +466,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 420px;
+	left: 582px;
 }
 
 #u2188
@@ -524,7 +524,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 510px;
+	left: 685px;
 }
 
 #u2195
@@ -8417,8 +8417,18 @@ body
 
 .languageText{
 	padding-right: 10px;
+	line-height: 19px;
+	color: #3D3D3D;
+	font-size: 16px;
+	text-align: center;
+	font-family: Sora, sans-serif;
+	font-weight: 400;
 }
 
+.menuContainer
+{
+	margin: 0 auto;
+}
 .menu_options
 {
 	width: 82px;
@@ -8441,10 +8451,16 @@ body
   padding-top: 10px;
 }
 
+#menuu2170 .MenuItemContainer .MenuItem
+{
+	padding-top: 20px;
+}
+
 #uLogo
 {
 	width: 95px;
 	min-height: 34px;
 	background-color: transparent;
 	position: relative;
+	left: 110px;
 }
