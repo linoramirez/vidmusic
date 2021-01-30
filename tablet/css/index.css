@@ -157,14 +157,17 @@
 #menuu2170
 {
 	z-index: 16;
-	width: 586px;
+	width: 1024px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 29px;
 	left: 219px;
+	padding: 15px 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  text-align: center;
 }
 
 #u2171
@@ -964,9 +967,9 @@
 	width: 1024px;
 	height: 1017px;
 	position: fixed;
-	top: 40px;
+	top: 0px;
 	left: 0px;
-	background: transparent url("../../images/dj_main_screen_tablet.png") no-repeat center top;
+	background: transparent url("../../images/frame5.png") no-repeat center top;
 }
 
 #pamphletu2747
