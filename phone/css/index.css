@@ -52,17 +52,15 @@
 	padding-bottom: 0px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../../images/phone_pattern_home.png") no-repeat center top;
 }
 
 #u2938
 {
 	z-index: 3;
-	width: 360px;
-	margin-top: 53px;
+	width: 380px;
 	position: relative;
-	padding: 25px 10px 37.44999999999999px;
-	background: transparent url("../../images/dj_main_screen_phone.png") no-repeat center top;
+	padding: 0;
+	background: transparent url("../../images/frame5.png") no-repeat center center;
 }
 
 #u2936-5
