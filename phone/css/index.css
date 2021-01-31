@@ -69,13 +69,17 @@
 	width: 360px;
 	min-height: 63px;
 	background-color: transparent;
-	letter-spacing: 3px;
-	line-height: 60px;
-	font-size: 60px;
+	color: #FFF;
+	letter-spacing: 0px;
+	line-height: 13px;
+	font-size: 33px;
 	text-align: center;
+	text-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
+	text-transform: uppercase;
+	top: 167px;
 }
 
 #pu3376
@@ -83,6 +87,7 @@
 	width: 0.01px;
 	margin-left: 96px;
 	margin-top: 345px;
+	margin-bottom: 30px;
 }
 
 #u3376
@@ -146,7 +151,7 @@
 	z-index: 9;
 	width: 282px;
 	min-height: 28px;
-	background-color: #FF510D;
+	background-color: transparent;
 	color: #FCFCFC;
 	text-align: center;
 	line-height: 14px;
@@ -156,6 +161,7 @@
 	margin-right: -10000px;
 	margin-top: 157px;
 	left: 49px;
+	top: 65px;
 }
 
 #u2937-2
@@ -1126,7 +1132,7 @@
 	margin: 38px -10000px 0px 0px;
 }
 
-#u2936,#u3000-2
+#u3000-2
 {
 	color: #FF510D;
 }
