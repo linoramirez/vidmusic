@@ -88,11 +88,8 @@
 #u3376
 {
 	z-index: 15;
-	width: 50px;
-	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 	background-size: contain;
@@ -102,21 +99,18 @@
 {
 	border-style: none;
 	border-color: #000000;
-	background: transparent url("../../images/icon_fb_01.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_fb_01.png") no-repeat center center;
 	background-size: contain;
 }
 
 #u3375
 {
 	z-index: 14;
-	width: 50px;
-	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 60px;
+	left: 80px;
 	background-size: contain;
 }
 
@@ -124,21 +118,18 @@
 {
 	border-style: none;
 	border-color: #000000;
-	background: transparent url("../../images/icon_twitter_01.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_twitter_01.png") no-repeat center center;
 	background-size: contain;
 }
 
 #u3374
 {
 	z-index: 13;
-	width: 50px;
-	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 119px;
+	left: 160px;
 	background-size: contain;
 }
 
@@ -146,7 +137,7 @@
 {
 	border-style: none;
 	border-color: #000000;
-	background: transparent url("../../images/icon_instagram_01.png") no-repeat center center;
+	background: #4f514d  url("../../images/icon_instagram_01.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -5381,18 +5372,15 @@
 #pu3511
 {
 	width: 0.01px;
-	margin-left: 20px;
+	margin-left: 80px;
 	margin-top: 11px;
 }
 
 #u3511
 {
 	z-index: 886;
-	width: 50px;
-	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 	background-size: contain;
@@ -5400,59 +5388,47 @@
 
 #u3376:hover,#u3511:hover
 {
-	width: 50px;
-	height: 50px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../../images/icon_fb_02.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_fb_02.png") no-repeat center center;
 	background-size: contain;
 }
 
 #u3510
 {
 	z-index: 885;
-	width: 50px;
-	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 60px;
+	left: 80px;
 	background-size: contain;
 }
 
 #u3375:hover,#u3510:hover
 {
-	width: 50px;
-	height: 50px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../../images/icon_twitter_02.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_twitter_02.png") no-repeat center center;
 	background-size: contain;
 }
 
 #u3509
 {
 	z-index: 884;
-	width: 50px;
-	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 119px;
+	left: 160px;
 	background-size: contain;
 }
 
 #u3374:hover,#u3509:hover
 {
-	width: 50px;
-	height: 50px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../../images/icon_instagram_02.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_instagram_02.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -6037,4 +6013,14 @@ body
 #page .verticalspacer
 {
 	clear: both;
+}
+
+/******CSS New Design*******
+By: Linoek******************/
+
+.social_btn
+{
+	border-radius: 30px;
+	width: 40px;
+	height: 40px;
 }

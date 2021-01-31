@@ -115,27 +115,6 @@
   display: inline-block;
 }
 
-#uLogo
-{
-	width: 95px;
-	min-height: 34px;
-	background-color: transparent;
-	position: relative;
-	margin-right: 50px;
-}
-
-#uLanguage
-{
-	width: 95px;
-	min-height: 34px;
-	background-color: transparent;
-	position: relative;
-	margin-left: 25px;
-}
-.languageText{
-	padding-right: 10px;
-}
-
 .caret{
 	display: inline-block;
   width: 0;
@@ -9731,4 +9710,31 @@ body
 #page .verticalspacer
 {
 	clear: both;
+}
+
+/******CSS New Design*******
+By: Linoek******************/
+
+
+#uLogo
+{
+	width: 95px;
+	min-height: 34px;
+	background-color: transparent;
+	position: relative;
+	margin-right: 50px;
+}
+
+#uLanguage
+{
+	width: 95px;
+	min-height: 34px;
+	background-color: transparent;
+	position: relative;
+	margin-left: 25px;
+}
+
+.languageText
+{
+	padding-right: 10px;
 }
