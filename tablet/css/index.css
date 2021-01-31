@@ -62,11 +62,10 @@
 	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 896px;
-	left: 547px;
+	left: 580px;
 	background-size: contain;
 }
 
@@ -76,7 +75,7 @@
 	height: 50px;
 	min-height: 0px;
 	margin: 896px -10000px 0px 0px;
-	background: transparent url("../../images/icon_instagram_02.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_instagram_02.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -84,7 +83,7 @@
 {
 	border-style: none;
 	border-color: #000000;
-	background: transparent url("../../images/icon_instagram_01.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_instagram_01.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -95,11 +94,10 @@
 	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 896px;
-	left: 487px;
+	left: 490px;
 	background-size: contain;
 }
 
@@ -109,7 +107,7 @@
 	height: 50px;
 	min-height: 0px;
 	margin: 896px -10000px 0px 0px;
-	background: transparent url("../../images/icon_twitter_02.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_twitter_02.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -117,7 +115,7 @@
 {
 	border-style: none;
 	border-color: #000000;
-	background: transparent url("../../images/icon_twitter_01.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_twitter_01.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -128,11 +126,10 @@
 	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 896px;
-	left: 428px;
+	left: 400px;
 	background-size: contain;
 }
 
@@ -142,15 +139,16 @@
 	height: 50px;
 	min-height: 0px;
 	margin: 896px -10000px 0px 0px;
-	background: transparent url("../../images/icon_fb_02.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_fb_02.png") no-repeat center center;
 	background-size: contain;
+
 }
 
 .social_btn_fb
 {
 	border-style: none;
 	border-color: #000000;
-	background: transparent url("../../images/icon_fb_01.png") no-repeat center center;
+	background: #4f514d url("../../images/icon_fb_01.png") no-repeat center center;
 	background-size: contain;
 }
 
@@ -8414,6 +8412,11 @@ body
 #page .verticalspacer
 {
 	clear: both;
+}
+
+.social_btn
+{
+	border-radius: 30px;
 }
 
 .languageText{
