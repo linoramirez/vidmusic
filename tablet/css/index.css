@@ -1571,15 +1571,16 @@
 	width: 711px;
 	min-height: 124px;
 	background-color: transparent;
-	letter-spacing: 12px;
-	line-height: 120px;
-	font-size: 120px;
+	letter-spacing: 0;
+	line-height: 119px;
+	font-size: 48px;
 	text-align: center;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	position: fixed;
-	top: 171px;
+	top: 260px;
 	left: 156px;
+	color: #fff;
 }
 
 #u2158-4
@@ -1588,16 +1589,16 @@
 	width: 519px;
 	min-height: 28px;
 	background-color: transparent;
-	color: #3D3D3D;
-	font-size: 18px;
+	color: #FFF;
+	font-size: 14px;
 	text-align: center;
-	letter-spacing: 1px;
-	line-height: 18px;
+	letter-spacing: 0;
+	line-height: 19px;
 	font-family: Sora, sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	position: fixed;
-	top: 300px;
-	left: 252px;
+	top: 375px;
+	left: 250px;
 }
 
 #u2257
@@ -1684,7 +1685,7 @@
 	margin: 43px -10000px 0px 0px;
 }
 
-#u2157,#u2271-2
+#u2271-2
 {
 	color: #FF510D;
 }
