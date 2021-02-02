@@ -641,14 +641,14 @@
 {
 	z-index: 64;
 	width: 456px;
-	min-height: 70px;
+	min-height: 40px;
 	border-color: #FFFFFF;
 	background-color: transparent;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #000;
-	font-size: 60px;
+	font-size: 50px;
 	line-height: 48px;
 	font-family: Sora, sans-serif;
 	font-weight: bold;
@@ -664,7 +664,7 @@
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
 }
@@ -706,7 +706,7 @@
 	line-height: 20px;
 	font-family: Sora, sans-serif;
 	font-weight: 300;
-	margin-top: 53px;
+	margin-top: 30px;
 	position: relative;
 }
 
@@ -722,25 +722,26 @@
 {
 	z-index: 78;
 	width: 456px;
-	min-height: 70px;
+	min-height: 40px;
 	border-color: #FFFFFF;
 	background-color: transparent;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #000;
+	font-size: 50px;
+	line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u2237-4.AccordionPanelTabOpen,#u2232-4:hover
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
 }
@@ -783,7 +784,7 @@
 	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-left: 11px;
-	margin-top: 53px;
+	margin-top: 30px;
 	position: relative;
 }
 
@@ -799,25 +800,26 @@
 {
 	z-index: 95;
 	width: 456px;
-	min-height: 70px;
+	min-height: 40px;
 	border-color: #FFFFFF;
 	background-color: transparent;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #000;
+	font-size: 50px;
+	line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u2232-4.AccordionPanelTabOpen,#u2250-4:hover
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
 }
@@ -860,7 +862,7 @@
 	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-left: 11px;
-	margin-top: 53px;
+	margin-top: 30px;
 	position: relative;
 }
 
@@ -894,7 +896,7 @@
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
 }
@@ -1571,7 +1573,7 @@
 	background-color: transparent;
 	letter-spacing: 0;
 	line-height: 119px;
-	font-size: 48px;
+	font-size: 50px;
 	text-align: center;
 	text-transform: uppercase;
 	text-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
