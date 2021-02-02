@@ -1757,7 +1757,8 @@
 	padding-bottom: 237.1999999999989px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../../images/dj_services_screen.png") no-repeat center center;
+	background: transparent url("../../images/bg_dj_main_screen_tablet.png") no-repeat center center;
+	background-size: cover;
 }
 
 #u2275-5
