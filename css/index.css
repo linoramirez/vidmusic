@@ -2154,7 +2154,7 @@
 {
 	z-index: 71;
 	width: 456px;
-	min-height: 70px;
+	min-height: 40px;
 	border-color: #FFFFFF;
 	background-color: transparent;
 	padding-left: 10px;
@@ -2169,18 +2169,14 @@
 	text-transform: uppercase;
 }
 
+
 #u231-4:hover
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
-}
-
-#u231-4 p
-{
-	padding-bottom: 10px;
 }
 
 #u231-4:hover #u246
@@ -2209,7 +2205,7 @@
 	z-index: 76;
 	width: 65px;
 	height: 2px;
-	background-color: #000;
+	background-color: #5E26FD;
 	position: relative;
 }
 
@@ -2241,18 +2237,19 @@
 {
 	z-index: 85;
 	width: 456px;
-	min-height: 70px;
+	min-height: 40px;
 	border-color: #FFFFFF;
 	background-color: transparent;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #5E26FD;
+	color: #000;
 	font-size: 40px;
   line-height: 48px;
 	font-family: Sora, sans-serif;
 	font-weight: bold;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u231-4.AccordionPanelTabOpen,#u234-4:hover
@@ -2302,7 +2299,7 @@
 	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-left: 11px;
-	margin-top: 53px;
+	margin-top: 20px;
 	position: relative;
 }
 
@@ -2318,25 +2315,26 @@
 {
 	z-index: 102;
 	width: 456px;
-	min-height: 70px;
+	min-height: 40px;
 	border-color: #FFFFFF;
 	background-color: transparent;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #5E26FD;
+	color: #000;
 	font-size: 40px;
-  line-height: 48px;
+	line-height: 48px;
 	font-family: Sora, sans-serif;
 	font-weight: bold;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u234-4.AccordionPanelTabOpen,#u238-4:hover
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
 }
@@ -2379,7 +2377,7 @@
 	font-family: Sora, sans-serif;
 	font-weight: 300;
 	margin-left: 11px;
-	margin-top: 53px;
+	margin-top: 20px;
 	position: relative;
 }
 
@@ -2413,7 +2411,7 @@
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 70px;
+	min-height: 40px;
 	width: 456px;
 	margin: 0px;
 }
@@ -2826,6 +2824,7 @@
 #u231-4.AccordionPanelTabOpen p,#u234-4.AccordionPanelTabOpen p,#u238-4.AccordionPanelTabOpen p,#u241-4.AccordionPanelTabOpen p,#buttonu367:hover #u394-4 p
 {
 	visibility: inherit;
+	color: #5E26FD;
 }
 
 #u395-4
