@@ -688,7 +688,6 @@
 	z-index: 17;
 	width: 380px;
 	position: relative;
-	background: #FFFFFF url("../../images/phone_pattern_about.png") no-repeat center top;
 }
 
 #accordionu2963
@@ -1191,7 +1190,7 @@
 	z-index: 92;
 	width: 380px;
 	position: relative;
-	background: #FFFFFF url("../../images/phone_pattern_about.png") no-repeat center top;
+	background: transparent url("../../images/bg_dj_main_screen_tablet.png") no-repeat center top;
 }
 
 #u3091_position_content
@@ -1664,16 +1663,6 @@
 	min-height: 44px;
 	width: 275px;
 	margin: 0px 0px -3px;
-}
-
-#u3095
-{
-	z-index: 93;
-	width: 380px;
-	height: 546px;
-	margin-top: 60px;
-	position: relative;
-	background: transparent url("../../images/dj_services_screen_phone.png") no-repeat center top;
 }
 
 #u3114
