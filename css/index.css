@@ -2683,7 +2683,8 @@
 {
 	z-index: 154;
 	min-height: 1000px;
-	background: transparent url("../images/dj_services_screen.png") no-repeat center center;
+	background: transparent url("../images/bg_dj_main_screen_tablet.png") no-repeat center center;
+	background-size: cover;
 }
 
 #u322_align_to_page
@@ -2748,7 +2749,6 @@
 	z-index: 162;
 	min-height: 999.8000000000011px;
 	padding-bottom: 0px;
-	background: transparent url("../images/pattern_01.png") repeat-y center top;
 }
 
 #u366_align_to_page
@@ -2758,7 +2758,7 @@
 	width: 1170px;
 	position: relative;
 	left: -100px;
-	padding-bottom: 237px;
+	padding-bottom: 150px;
 }
 
 #buttonu367
