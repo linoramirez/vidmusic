@@ -3630,6 +3630,7 @@
 #u640_position_content
 {
 	padding-bottom: 764px;
+	width: 100%;
 }
 
 #u479-5
@@ -3639,14 +3640,16 @@
 	min-height: 64px;
 	background-color: transparent;
 	text-indent: -2px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #5E26FD;
+	font-size: 40px;
+	line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
-	left: 225px;
+	font-weight: 600;
+	left: 50%;
 	margin-top: 134px;
 	position: relative;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 #u480
@@ -3696,7 +3699,7 @@
 	top: -49px;
 	left: -31px;
 	padding: 48px 14px 36.05000000000018px 31px;
-	background: #FF510D url("../images/dj_01_thumb_02.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_1.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -3705,7 +3708,7 @@
 	width: 185px;
 	min-height: 0px;
 	margin: 0px;
-	background: #5E26FD url("../images/dj_01_thumb_01.jpg") no-repeat center center;
+	background: #5E26FD url("../images/artist_1.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -3794,7 +3797,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u2052.MuseMenuActive,.ie #u515:hover #u614
@@ -3821,7 +3824,7 @@
 	top: -49px;
 	left: 199px;
 	padding: 48px 14px 36.05000000000018px 30px;
-	background: #FF510D url("../images/dj_02_thumb_01.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_2.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -3830,7 +3833,7 @@
 	width: 186px;
 	min-height: 0px;
 	margin: 0px;
-	background: #FF510D url("../images/dj_02_thumb_02.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_2.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -3921,7 +3924,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u641:hover #u758
@@ -3948,7 +3951,7 @@
 	top: -49px;
 	left: 429px;
 	padding: 48px 14px 36.05000000000018px 30px;
-	background: #FF510D url("../images/dj_03_thumb_01.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_3.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -3957,7 +3960,7 @@
 	width: 186px;
 	min-height: 0px;
 	margin: 0px;
-	background: #5E26FD url("../images/dj_03_thumb_02.jpg") no-repeat center center;
+	background: #5E26FD url("../images/artist_3.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4048,7 +4051,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u671:hover #u761
@@ -4075,7 +4078,7 @@
 	top: -49px;
 	left: 659px;
 	padding: 48px 15px 36.05000000000018px 29px;
-	background: #FF510D url("../images/dj_04_thumb_01.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_4.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4084,7 +4087,7 @@
 	width: 186px;
 	min-height: 0px;
 	margin: 0px;
-	background: #5E26FD url("../images/dj_04_thumb_02.jpg") no-repeat center center;
+	background: #5E26FD url("../images/artist_4.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4184,7 +4187,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u673:hover #u764
@@ -4211,7 +4214,7 @@
 	top: 180px;
 	left: -31px;
 	padding: 47px 14px 37.05000000000018px 31px;
-	background: #FF510D url("../images/dj_05_thumb_01.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_5.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4220,7 +4223,7 @@
 	width: 185px;
 	min-height: 0px;
 	margin: 0px;
-	background: #5E26FD url("../images/dj_05_thumb_02.jpg") no-repeat center center;
+	background: #5E26FD url("../images/artist_5.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4309,7 +4312,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u675:hover #u857
@@ -4336,7 +4339,7 @@
 	top: 180px;
 	left: 199px;
 	padding: 47px 15px 38.05000000000018px 30px;
-	background: #FF510D url("../images/dj_06_thumb_01.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_6.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4345,7 +4348,7 @@
 	width: 185px;
 	min-height: 0px;
 	margin: 0px;
-	background: #5E26FD url("../images/dj_06_thumb_02.jpg") no-repeat center center;
+	background: #5E26FD url("../images/artist_6.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4434,7 +4437,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u677:hover #u860
@@ -4461,7 +4464,7 @@
 	top: 180px;
 	left: 429px;
 	padding: 47px 14px 38.05000000000018px 31px;
-	background: #FF510D url("../images/dj_07_thumb_01.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_7.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4470,7 +4473,7 @@
 	width: 185px;
 	min-height: 0px;
 	margin: 0px;
-	background: #5E26FD url("../images/dj_07_thumb_02.jpg") no-repeat center center;
+	background: #5E26FD url("../images/artist_7.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4559,7 +4562,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u679:hover #u863
@@ -4586,7 +4589,7 @@
 	top: 180px;
 	left: 659px;
 	padding: 47px 15px 38.05000000000018px 30px;
-	background: #FF510D url("../images/dj_08_thumb_01.jpg") no-repeat center center;
+	background: #FF510D url("../images/artist_8.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4595,7 +4598,7 @@
 	width: 185px;
 	min-height: 0px;
 	margin: 0px;
-	background: #5E26FD url("../images/dj_08_thumb_02.jpg") no-repeat center center;
+	background: #5E26FD url("../images/artist_8.png") no-repeat center center;
 	background-size: cover;
 }
 
@@ -4703,7 +4706,7 @@
 	height: 86px;
 	min-height: 0px;
 	margin: 0px 0px -7px;
-	background: transparent url("../images/dj_thumb_arrow.png") no-repeat left top;
+	background: transparent url("../images/djs_arrow_phone_03.png") no-repeat left top;
 }
 
 .ie #u681:hover #u866
@@ -9734,4 +9737,16 @@ By: Linoek******************/
 #pu260
 {
 	display: none;
+}
+
+#u479-1{
+	padding-bottom: 30px;
+}
+
+#u479-2{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1B1B1B;
+	text-transform: capitalize;
 }
