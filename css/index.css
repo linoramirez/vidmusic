@@ -6494,24 +6494,26 @@
 {
 	z-index: 724;
 	min-height: 1000px;
-	background: transparent url("../images/pattern_01.png") repeat-y center top;
+	background: transparent url("../images/bg_dj_main_screen_tablet.png") repeat-y center top;
 }
 
 #u498-5
 {
 	z-index: 725;
-	width: 380px;
+	width: 100%;
 	min-height: 64px;
 	background-color: transparent;
 	text-indent: -1px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #FFF;
+	font-size: 40px;
+	line-height: 48px;
 	font-family: Sora, sans-serif;
 	font-weight: 400;
-	left: 225px;
+	left: 110px;
 	margin-top: 134px;
 	position: relative;
+	text-align: center;
+	text-shadow: 0px 0px 24px #000E41;
 }
 
 #u499
@@ -6538,7 +6540,7 @@
 	height: 491px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 297px;
+	margin-top: 240px;
 	left: 225px;
 }
 
@@ -6648,7 +6650,6 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	background-size: cover;
 }
 
 #buttonu1034:hover #u1050
@@ -6657,8 +6658,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_01_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1054
@@ -6739,8 +6738,6 @@
 	height: 380px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/flyer_02_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1067:hover #u1068
@@ -6749,8 +6746,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_02_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1071
@@ -6831,8 +6826,6 @@
 	height: 380px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/flyer_03_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1077:hover #u1080
@@ -6841,15 +6834,12 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_03_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 .flyer01,.flyer02,.flyer03
 {
 	border-style: none;
 	border-color: #000000;
-	background: transparent url("../images/flyer_01_01.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -6945,7 +6935,6 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	background-size: cover;
 }
 
 #buttonu1226:hover #u1228
@@ -6954,8 +6943,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_01_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1230
@@ -7036,8 +7023,6 @@
 	height: 380px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/flyer_02_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1231:hover #u1234
@@ -7046,8 +7031,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_02_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1232
@@ -7128,8 +7111,6 @@
 	height: 380px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/flyer_03_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1221:hover #u1225
@@ -7138,8 +7119,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_03_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1224
@@ -7234,7 +7213,6 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	background-size: cover;
 }
 
 #buttonu1241:hover #u1243
@@ -7243,8 +7221,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_01_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1034.ButtonSelected #u1050,#buttonu1226.ButtonSelected #u1228,#buttonu1241.ButtonSelected #u1243
@@ -7253,8 +7229,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_01_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1245
@@ -7335,8 +7309,6 @@
 	height: 380px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/flyer_02_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1246:hover #u1249
@@ -7345,8 +7317,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_02_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1067.ButtonSelected #u1068,#buttonu1231.ButtonSelected #u1234,#buttonu1246.ButtonSelected #u1249
@@ -7355,8 +7325,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_02_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1247
@@ -7444,8 +7412,6 @@
 	height: 380px;
 	position: relative;
 	margin-right: -10000px;
-	background: transparent url("../images/flyer_03_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1236:hover #u1240
@@ -7454,8 +7420,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_03_02.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #buttonu1077.ButtonSelected #u1080,#buttonu1221.ButtonSelected #u1225,#buttonu1236.ButtonSelected #u1240
@@ -7464,8 +7428,6 @@
 	height: 380px;
 	min-height: 0px;
 	margin: 0px -10000px 0px 0px;
-	background: transparent url("../images/flyer_03_01.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u1239
@@ -9709,6 +9671,28 @@ By: Linoek******************/
 	border-top-left-radius: 10px;
 	padding: 5px 10px 12px 10px;
   text-align: center;
+}
+
+.flyer01
+{
+	background: transparent url("../images/bg_beats_party.png") no-repeat center center;
+	background-size: cover;
+}
+
+.flyer02
+{
+	background: transparent url("../images/bg_rogue.png") no-repeat center center;
+	background-size: cover;
+}
+
+.flyer03
+{
+	background: transparent url("../images/bg_sensation.png") no-repeat center center;
+	background-size: cover;
+}
+
+.museBGSize .title{
+  transition: none;
 }
 
 #uLogo
