@@ -7972,7 +7972,7 @@
 #u1355
 {
 	z-index: 920;
-	min-height: 599.9500000000007px;
+	min-height: 300px;
 	padding-bottom: 0px;
 	background: transparent url("../images/subscribe_background.jpg") no-repeat center center;
 	background-size: cover;
@@ -7980,7 +7980,7 @@
 
 #u1355_position_content
 {
-	padding-bottom: 190px;
+	padding-bottom: 80px;
 }
 
 #top
@@ -8006,7 +8006,7 @@
 	font-family: Sora, sans-serif;
 	font-weight: 400;
 	left: 225px;
-	margin-top: 133px;
+	margin-top: 100px;
 	position: relative;
 }
 
@@ -8038,7 +8038,7 @@
 #u1355-bw
 {
 	z-index: 920;
-	min-height: 599.9500000000007px;
+	min-height: 300px;
 }
 
 #widgetu1359
