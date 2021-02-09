@@ -8760,14 +8760,14 @@
 #u1444
 {
 	z-index: 1049;
-	height: 350px;
+	height: 400px;
 	background-color: #FFFFFF;
 }
 
 #u1444-bw
 {
 	z-index: 1049;
-	height: 350px;
+	height: 400px;
 }
 
 #u1451
@@ -8799,7 +8799,7 @@
 #u1453
 {
 	z-index: 1052;
-	min-height: 350px;
+	min-height: 400px;
 	padding-bottom: 0px;
 	background: transparent url("../images/pattern_06.png") repeat-y center bottom;
 }
@@ -8812,7 +8812,7 @@
 	position: relative;
 	left: -100px;
 	padding-top: 100px;
-	padding-bottom: 65px;
+	padding-bottom: 130px;
 }
 
 #u1448-5
@@ -8876,7 +8876,7 @@
 #u1453-bw
 {
 	z-index: 1052;
-	min-height: 350px;
+	min-height: 400px;
 }
 
 #video,#faq,#contact
