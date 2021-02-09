@@ -7980,7 +7980,7 @@
 
 #u1355_position_content
 {
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 }
 
 #top
@@ -8000,24 +8000,25 @@
 	width: 698px;
 	min-height: 64px;
 	background-color: transparent;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #FFF;
+	font-size: 40px;
+	line-height: 48px;
 	font-family: Sora, sans-serif;
 	font-weight: 400;
 	left: 225px;
-	margin-top: 100px;
+	margin-top: 80px;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u1357
 {
 	z-index: 926;
-	width: 65px;
+	width: 445px;
 	height: 2px;
-	background-color: #5E26FD;
+	background-color: #FFF;
 	left: 225px;
-	margin-top: 18px;
+	margin-top: 10px;
 	position: relative;
 }
 
@@ -8048,7 +8049,7 @@
 	height: 86px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 295px;
+	margin-top: 275px;
 	left: 225px;
 }
 
@@ -8108,7 +8109,7 @@
 	min-height: 18px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #5E26FD;
+	border-color: #2D53DB;
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
@@ -8117,11 +8118,12 @@
 	position: relative;
 	margin-right: -10000px;
 	padding: 14px 6px;
+	background-color: #FFF;
 }
 
 #widgetu1368:hover #u1370-4
 {
-	border-color: #FF510D;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 18px;
@@ -8131,7 +8133,7 @@
 
 #widgetu1368.focus-st #u1370-4
 {
-	border-color: #FF510D;
+	border-color: #2D53DB;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 18px;
@@ -8171,7 +8173,6 @@
 {
 	width: 429px;
 	min-height: 18px;
-	color: #C4C4C4;
 	font-family: Sora, sans-serif;
 	font-weight: 300;
 	padding: 14px 6px;
@@ -8241,12 +8242,17 @@
 	position: relative;
 	margin-right: -10000px;
 	left: 459px;
-	background: url("../images/u1372-17.png") no-repeat 0px 0px;
+	background-color: #2D53DB;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: 16px;
+	line-height: 24px;
+	font-weight: bold;
 }
 
 #u1372-17:hover
 {
-	background: url("../images/u1372-17-r.png") no-repeat 0px 0px;
+	background-color: #5E26FD;
 }
 
 #u1372-17:active
@@ -9460,7 +9466,7 @@
 	position: relative;
 }
 
-#u307-2,#u423-2,#u479-2,#u482-2,#u498-2,#u1356-2,#u1448-2,#u1474-2
+#u307-2,#u423-2,#u479-2,#u482-2,#u498-2,#u1448-2,#u1474-2
 {
 	color: #5E26FD;
 }
