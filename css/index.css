@@ -8133,7 +8133,7 @@
 
 #widgetu1368.focus-st #u1370-4
 {
-	border-color: #2D53DB;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 18px;
@@ -8852,17 +8852,22 @@
 	font-size: 16px;
 	line-height: 22px;
 	left: 225px;
-	margin-top: 52px;
+	margin-top: 30px;
 	position: relative;
 }
 
-#u1450-2,#u1450-9,#u1450-10,#u1450-12,#u1450-15,#u1450-18,#u1450-21,#u1450-22,#u1450-23,#u1450-25
+#u1450-15
+{
+	font-weight: bold;
+}
+
+#u1450-2,#u1450-9,#u1450-12
 {
 	font-family: Sora, sans-serif;
 	font-weight: 300;
 }
 
-#u1450-4,#u1450-6,#u1450-8,#u1450-14,#u1450-17,#u1450-20,#u1450-27
+#u1450-14,#u1450-20
 {
 	font-family: Sora, sans-serif;
 	font-weight: 400;
@@ -8889,7 +8894,7 @@
 	height: 334px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 230px;
+	margin-top: 200px;
 	left: 700px;
 }
 
@@ -8903,7 +8908,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: -2px;
+	margin-top: 0px;
 	left: -2px;
 }
 
@@ -8921,7 +8926,7 @@
 {
 	z-index: 1092;
 	width: 69px;
-	min-height: 20px;
+	min-height: 35px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
@@ -8953,7 +8958,7 @@
 	min-height: 22px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #5E26FD;
+	border-color: #2F80ED;
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
@@ -8966,7 +8971,7 @@
 
 #widgetu1459:hover #u1460-4
 {
-	border-color: #FF510D;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 22px;
@@ -8976,7 +8981,7 @@
 
 #widgetu1459.focus-st #u1460-4
 {
-	border-color: #FF510D;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 22px;
@@ -9012,7 +9017,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 60px;
+	margin-top: 80px;
 	left: -2px;
 }
 
@@ -9030,7 +9035,7 @@
 {
 	z-index: 1100;
 	width: 69px;
-	min-height: 20px;
+	min-height: 35px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
@@ -9060,7 +9065,7 @@
 	min-height: 22px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #5E26FD;
+	border-color: #2F80ED;
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
@@ -9073,7 +9078,7 @@
 
 #widgetu1463:hover #u1465-4
 {
-	border-color: #FF510D;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 22px;
@@ -9083,7 +9088,7 @@
 
 #widgetu1463.focus-st #u1465-4
 {
-	border-color: #FF510D;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 22px;
@@ -9229,18 +9234,20 @@
 {
 	z-index: 1119;
 	min-height: 52px;
-	width: 162px;
+	width: 450px;
 	margin-bottom: -1px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 283px;
+	margin-top: 340px;
 	left: -1px;
-	background: url("../images/u1467-17.png") no-repeat 0px 0px;
+	background-color: #2F80ED;
+	border-radius: 8px;
+	color: #FFF;
 }
 
 #u1467-17:hover
 {
-	background: url("../images/u1467-17-r.png") no-repeat 0px 0px;
+	background-color: #5E26FD;
 }
 
 #u1467-17:active
@@ -9263,7 +9270,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 121px;
+	margin-top: 160px;
 	left: -2px;
 }
 
@@ -9281,7 +9288,7 @@
 {
 	z-index: 1137;
 	width: 69px;
-	min-height: 20px;
+	min-height: 35px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
@@ -9318,7 +9325,7 @@
 	min-height: 122px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #5E26FD;
+	border-color: #2F80ED;
 	background-color: transparent;
 	color: #C4C4C4;
 	line-height: 14px;
@@ -9331,7 +9338,7 @@
 
 #widgetu1455:hover #u1456-4
 {
-	border-color: #FF510D;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 122px;
@@ -9341,7 +9348,7 @@
 
 #widgetu1455.focus-st #u1456-4
 {
-	border-color: #FF510D;
+	border-color: #5E26FD;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	min-height: 122px;
@@ -9628,28 +9635,6 @@ By: Linoek******************/
   text-align: center;
 }
 
-.flyer01
-{
-	background: transparent url("../images/bg_beats_party.png") no-repeat center center;
-	background-size: cover;
-}
-
-.flyer02
-{
-	background: transparent url("../images/bg_rogue.png") no-repeat center center;
-	background-size: cover;
-}
-
-.flyer03
-{
-	background: transparent url("../images/bg_sensation.png") no-repeat center center;
-	background-size: cover;
-}
-
-.museBGSize .title{
-  transition: none;
-}
-
 #uLogo
 {
 	width: 95px;
@@ -9666,11 +9651,6 @@ By: Linoek******************/
 	background-color: transparent;
 	position: relative;
 	margin-left: 25px;
-}
-
-.languageText
-{
-	padding-right: 10px;
 }
 
 #pu260
@@ -9721,6 +9701,43 @@ By: Linoek******************/
   line-height: 24px;
   font-weight: bold;
 	padding: 10px 14px 0;
+}
+
+.contact-module form p
+{
+	color: #828282;
+}
+
+.contact-module form p span
+{
+	color: #EB5757;
+}
+
+.flyer01
+{
+	background: transparent url("../images/bg_beats_party.png") no-repeat center center;
+	background-size: cover;
+}
+
+.flyer02
+{
+	background: transparent url("../images/bg_rogue.png") no-repeat center center;
+	background-size: cover;
+}
+
+.flyer03
+{
+	background: transparent url("../images/bg_sensation.png") no-repeat center center;
+	background-size: cover;
+}
+
+.museBGSize .title{
+  transition: none;
+}
+
+.languageText
+{
+	padding-right: 10px;
 }
 
 .latest_news_module .title_module p
