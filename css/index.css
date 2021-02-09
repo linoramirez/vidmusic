@@ -8760,14 +8760,14 @@
 #u1444
 {
 	z-index: 1049;
-	height: 952px;
+	height: 350px;
 	background-color: #FFFFFF;
 }
 
 #u1444-bw
 {
 	z-index: 1049;
-	height: 952px;
+	height: 350px;
 }
 
 #u1451
@@ -8799,7 +8799,7 @@
 #u1453
 {
 	z-index: 1052;
-	min-height: 651.5499999999993px;
+	min-height: 350px;
 	padding-bottom: 0px;
 	background: transparent url("../images/pattern_06.png") repeat-y center bottom;
 }
@@ -8822,23 +8822,24 @@
 	min-height: 64px;
 	background-color: transparent;
 	text-indent: -1px;
-	color: #FF510D;
-	font-size: 60px;
-	line-height: 60px;
+	color: #000;
+	font-size: 40px;
+	line-height: 48px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	left: 225px;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u1449
 {
 	z-index: 1059;
-	width: 65px;
+	width: 445px;
 	height: 2px;
-	background-color: #5E26FD;
+	background-color: #2F80ED;
 	left: 225px;
-	margin-top: 18px;
+	margin-top: 0px;
 	position: relative;
 }
 
@@ -8870,23 +8871,7 @@
 #u1453-bw
 {
 	z-index: 1052;
-	min-height: 651.5499999999993px;
-	margin-top: 300px;
-}
-
-#u1446
-{
-	z-index: 1053;
-	min-height: 300px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-}
-
-#u1446-bw
-{
-	z-index: 1053;
-	min-height: 300px;
+	min-height: 350px;
 }
 
 #video,#faq,#contact
@@ -8904,7 +8889,7 @@
 	height: 334px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 542px;
+	margin-top: 230px;
 	left: 700px;
 }
 
@@ -9466,9 +9451,14 @@
 	position: relative;
 }
 
-#u307-2,#u423-2,#u479-2,#u482-2,#u498-2,#u1448-2,#u1474-2
+#u307-2,#u423-2,#u479-2,#u482-2,#u498-2,#u1474-2
 {
 	color: #5E26FD;
+}
+
+#u1448-2
+{
+	color: #2F80ED;
 }
 
 #u1475-4
