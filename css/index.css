@@ -9422,8 +9422,8 @@
 {
 	z-index: 1144;
 	min-height: 110px;
-	background-color: #F7F7F7;
-	padding-bottom: 60px;
+	background: linear-gradient(269.43deg, #2FBFED 0%, #2D53DB 47.35%, #5E26FD 100%);
+	padding-bottom: 40px;
 }
 
 #u218_align_to_page,#u260_align_to_page,#u330_align_to_page,#u640_align_to_page,#u481_align_to_page,#u1355_align_to_page,#u1391_align_to_page,#u1443_align_to_page,#u1473_align_to_page
@@ -9441,21 +9441,23 @@
 	padding-bottom: 0px;
 	margin-right: -10000px;
 	margin-top: 63px;
-	margin-left: 225px;
+	margin-left: 580px;
 }
 
 #u1474-5
 {
-	z-index: 1145;
-	width: 255px;
-	min-height: 25px;
+	z-index: 1150;
+	width: 220px;
+	min-height: 20px;
 	background-color: transparent;
-	color: #FF510D;
-	font-size: 24px;
+	color: #FFF;
+	font-size: 16px;
 	line-height: 24px;
 	font-family: Sora, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
+	margin-top: 1px;
 	position: relative;
+	text-transform: uppercase;
 }
 
 #u307-2,#u423-2,#u479-2,#u482-2,#u498-2,#u1474-2
@@ -9466,21 +9468,6 @@
 #u1448-2
 {
 	color: #2F80ED;
-}
-
-#u1475-4
-{
-	z-index: 1150;
-	width: 475px;
-	min-height: 20px;
-	background-color: transparent;
-	color: #3D3D3D;
-	font-size: 12px;
-	line-height: 12px;
-	font-family: Sora, sans-serif;
-	font-weight: 300;
-	margin-top: 1px;
-	position: relative;
 }
 
 #u1499
@@ -9798,4 +9785,13 @@ By: Linoek******************/
 
 .Thumb.popup_element{
 	background-color: #2D53DB;
+}
+
+.footer_module #logo_container
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-top: 45px;
+	margin-left: 230px;
 }
