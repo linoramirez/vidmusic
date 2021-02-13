@@ -4750,36 +4750,6 @@
 	z-index: 356;
 }
 
-#u522
-{
-	z-index: 357;
-	width: 1030px;
-	height: 530px;
-	border-style: none;
-	border-color: #5E26FD;
-	margin-right: -10000px;
-	position: relative;
-	top: 22px;
-	left: 22px;
-	background: #3D3D3D url("../images/dj_01_back.jpg") no-repeat center center;
-	background-size: cover;
-}
-
-#u538
-{
-	z-index: 358;
-	width: 920px;
-	border-width: 6px;
-	border-style: solid;
-	border-color: #5E26FD;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 25px;
-	left: 25px;
-	padding: 41px 24px 37.25px;
-}
-
 #u539-4
 {
 	z-index: 359;
@@ -4929,21 +4899,6 @@
 	margin-right: -10000px;
 	margin-top: 110px;
 	left: 55px;
-}
-
-#u645
-{
-	z-index: 400;
-	width: 1030px;
-	height: 530px;
-	border-style: none;
-	border-color: #5E26FD;
-	margin-right: -10000px;
-	position: relative;
-	top: 22px;
-	left: 22px;
-	background: #3D3D3D url("../images/dj_02_back.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 #u901
@@ -9718,6 +9673,15 @@ By: Linoek******************/
 	background-size: cover;
 }
 
+.footer_module #logo_container
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-top: 45px;
+	margin-left: 230px;
+}
+
 .museBGSize .title{
   transition: none;
 }
@@ -9755,11 +9719,6 @@ By: Linoek******************/
 	margin-right: -10000px;
 }
 
-.latest_news_module .single_news .title_container
-{
-
-}
-
 .latest_news_module .single_news .title_container .title
 {
 	color: #2D53DB;
@@ -9783,15 +9742,36 @@ By: Linoek******************/
 	margin-top: 55px !important;
 }
 
-.Thumb.popup_element{
-	background-color: #2D53DB;
+.popup-artist
+{
+	z-index: 357;
+	width: 1030px;
+	height: 530px;
+	border-style: none;
+	border-color: #5E26FD;
+	margin-right: -10000px;
+	position: relative;
+	top: 22px;
+	left: 22px;
+	background: #3D3D3D url("../images/dj_01_back.jpg") no-repeat center center;
+	background-size: cover;
 }
 
-.footer_module #logo_container
+.popup-artist .border
 {
-	width: 0.01px;
-	padding-bottom: 0px;
+	z-index: 358;
+	width: 930px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFF;
+	background-color: transparent;
+	position: relative;
 	margin-right: -10000px;
-	margin-top: 45px;
-	margin-left: 230px;
+	margin-top: 16px;
+  left: 25px;
+  padding: 41px 24px;
+}
+
+.Thumb.popup_element{
+	background-color: #2D53DB;
 }
