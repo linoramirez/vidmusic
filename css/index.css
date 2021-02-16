@@ -4801,88 +4801,7 @@
 	left: 380px;
 }
 
-#u546-4
-{
-	z-index: 374;
-	width: 120px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #FF510D;
-	font-family: Sora, sans-serif;
-	font-weight: 700;
-	position: relative;
-	margin-right: -10000px;
-}
 
-#u548-4
-{
-	z-index: 378;
-	width: 66px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #FF510D;
-	font-family: Sora, sans-serif;
-	font-weight: 700;
-	position: relative;
-	margin-right: -10000px;
-	left: 141px;
-}
-
-#u550-4
-{
-	z-index: 382;
-	width: 56px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #FF510D;
-	font-family: Sora, sans-serif;
-	font-weight: 700;
-	position: relative;
-	margin-right: -10000px;
-	left: 229px;
-}
-
-#u552-4
-{
-	z-index: 386;
-	width: 86px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #FF510D;
-	font-family: Sora, sans-serif;
-	font-weight: 700;
-	position: relative;
-	margin-right: -10000px;
-	left: 302px;
-}
-
-#u554-4
-{
-	z-index: 390;
-	width: 68px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #FF510D;
-	font-family: Sora, sans-serif;
-	font-weight: 700;
-	position: relative;
-	margin-right: -10000px;
-	left: 405px;
-}
-
-#u556-4
-{
-	z-index: 394;
-	width: 68px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #FF510D;
-	font-family: Sora, sans-serif;
-	font-weight: 700;
-	position: relative;
-	margin-right: -10000px;
-	left: 489px;
-}
 
 #u541-4
 {
@@ -6077,7 +5996,7 @@
 	left: 380px;
 }
 
-#pu546-4,#pu905-4,#pu918-4,#pu931-4,#pu944-4,#pu957-4,#pu970-4,#pu983-4
+#pu905-4,#pu918-4,#pu931-4,#pu944-4,#pu957-4,#pu970-4,#pu983-4
 {
 	width: 0.01px;
 	margin-top: 34px;
@@ -6096,7 +6015,7 @@
 	margin-right: -10000px;
 }
 
-#u546-4:hover,#u931-4:hover,#u957-4:hover,#u983-4:hover
+#u931-4:hover,#u957-4:hover,#u983-4:hover
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -6119,7 +6038,7 @@
 	left: 137px;
 }
 
-#u548-4:hover,#u906-4:hover,#u919-4:hover,#u932-4:hover,#u945-4:hover,#u958-4:hover,#u971-4:hover,#u984-4:hover
+#u906-4:hover,#u919-4:hover,#u932-4:hover,#u945-4:hover,#u958-4:hover,#u971-4:hover,#u984-4:hover
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -6142,7 +6061,7 @@
 	left: 225px;
 }
 
-#u550-4:hover,#u907-4:hover,#u920-4:hover,#u933-4:hover,#u946-4:hover,#u959-4:hover,#u972-4:hover,#u985-4:hover
+#u907-4:hover,#u920-4:hover,#u933-4:hover,#u946-4:hover,#u959-4:hover,#u972-4:hover,#u985-4:hover
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -6165,7 +6084,7 @@
 	left: 298px;
 }
 
-#u552-4:hover,#u908-4:hover,#u921-4:hover,#u934-4:hover,#u947-4:hover,#u960-4:hover,#u973-4:hover,#u986-4:hover
+#u908-4:hover,#u921-4:hover,#u934-4:hover,#u947-4:hover,#u960-4:hover,#u973-4:hover,#u986-4:hover
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -6202,18 +6121,13 @@
 	left: 485px;
 }
 
-#u554-4:hover,#u556-4:hover,#u909-4:hover,#u910-4:hover,#u922-4:hover,#u923-4:hover,#u935-4:hover,#u936-4:hover,#u948-4:hover,#u949-4:hover,#u961-4:hover,#u962-4:hover,#u974-4:hover,#u975-4:hover,#u987-4:hover,#u988-4:hover
+#u909-4:hover,#u910-4:hover,#u922-4:hover,#u923-4:hover,#u935-4:hover,#u936-4:hover,#u948-4:hover,#u949-4:hover,#u961-4:hover,#u962-4:hover,#u974-4:hover,#u975-4:hover,#u987-4:hover,#u988-4:hover
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 32px;
 	width: 68px;
 	margin: 0px -10000px 0px 0px;
-}
-
-#u546,#u548,#u550,#u552,#u554,#u556,#u905,#u906,#u907,#u908,#u909,#u910,#u918,#u919,#u920,#u921,#u922,#u923,#u931,#u932,#u933,#u934,#u935,#u936,#u944,#u945,#u946,#u947,#u948,#u949,#u957,#u958,#u959,#u960,#u961,#u962,#u970,#u971,#u972,#u973,#u974,#u975,#u983,#u984,#u985,#u986,#u987,#u988
-{
-	text-decoration: underline;
 }
 
 #u981-4
@@ -6231,69 +6145,6 @@
 	margin-right: -10000px;
 	margin-top: 110px;
 	left: 55px;
-}
-
-#u518
-{
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	border-color: #DEDEDE;
-	top: 384px;
-	left: 820px;
-	background: transparent url("../images/prev_btn_01.png") no-repeat center center;
-}
-
-#u518:hover
-{
-	border-color: #999999;
-	width: 50px;
-	height: 50px;
-	min-height: 0px;
-	margin: 0px;
-	background: transparent url("../images/prev_btn_02.png") no-repeat center center;
-}
-
-#u524
-{
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	border-color: #DEDEDE;
-	top: 384px;
-	left: 870px;
-	background: transparent url("../images/next_btn_01.png") no-repeat left top;
-}
-
-#u524:hover
-{
-	border-color: #999999;
-	width: 50px;
-	height: 50px;
-	min-height: 0px;
-	margin: 0px;
-	background: transparent url("../images/next_btn_02.png") no-repeat left top;
-}
-
-#u516
-{
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	border-style: none;
-	border-color: transparent;
-	top: 48px;
-	left: 870px;
-	background: transparent url("../images/close_btn_01.png") no-repeat center center;
-}
-
-#u516:hover
-{
-	width: 50px;
-	height: 50px;
-	min-height: 0px;
-	margin: 0px;
-	background: transparent url("../images/close_btn_02.png") no-repeat center center;
 }
 
 #u481
@@ -8386,7 +8237,7 @@
 	margin: 0px;
 }
 
-#u546-4:hover p,#u546-4:hover span,#u548-4:hover p,#u548-4:hover span,#u550-4:hover p,#u550-4:hover span,#u552-4:hover p,#u552-4:hover span,#u554-4:hover p,#u554-4:hover span,#u556-4:hover p,#u556-4:hover span,#u905-4:hover p,#u905-4:hover span,#u906-4:hover p,#u906-4:hover span,#u907-4:hover p,#u907-4:hover span,#u908-4:hover p,#u908-4:hover span,#u909-4:hover p,#u909-4:hover span,#u910-4:hover p,#u910-4:hover span,#u918-4:hover p,#u918-4:hover span,#u919-4:hover p,#u919-4:hover span,#u920-4:hover p,#u920-4:hover span,#u921-4:hover p,#u921-4:hover span,#u922-4:hover p,#u922-4:hover span,#u923-4:hover p,#u923-4:hover span,#u931-4:hover p,#u931-4:hover span,#u932-4:hover p,#u932-4:hover span,#u933-4:hover p,#u933-4:hover span,#u934-4:hover p,#u934-4:hover span,#u935-4:hover p,#u935-4:hover span,#u936-4:hover p,#u936-4:hover span,#u944-4:hover p,#u944-4:hover span,#u945-4:hover p,#u945-4:hover span,#u946-4:hover p,#u946-4:hover span,#u947-4:hover p,#u947-4:hover span,#u948-4:hover p,#u948-4:hover span,#u949-4:hover p,#u949-4:hover span,#u957-4:hover p,#u957-4:hover span,#u958-4:hover p,#u958-4:hover span,#u959-4:hover p,#u959-4:hover span,#u960-4:hover p,#u960-4:hover span,#u961-4:hover p,#u961-4:hover span,#u962-4:hover p,#u962-4:hover span,#u970-4:hover p,#u970-4:hover span,#u971-4:hover p,#u971-4:hover span,#u972-4:hover p,#u972-4:hover span,#u973-4:hover p,#u973-4:hover span,#u974-4:hover p,#u974-4:hover span,#u975-4:hover p,#u975-4:hover span,#u983-4:hover p,#u983-4:hover span,#u984-4:hover p,#u984-4:hover span,#u985-4:hover p,#u985-4:hover span,#u986-4:hover p,#u986-4:hover span,#u987-4:hover p,#u987-4:hover span,#u988-4:hover p,#u988-4:hover span,#u1418-4:hover p
+#u905-4:hover p,#u905-4:hover span,#u906-4:hover p,#u906-4:hover span,#u907-4:hover p,#u907-4:hover span,#u908-4:hover p,#u908-4:hover span,#u909-4:hover p,#u909-4:hover span,#u910-4:hover p,#u910-4:hover span,#u918-4:hover p,#u918-4:hover span,#u919-4:hover p,#u919-4:hover span,#u920-4:hover p,#u920-4:hover span,#u921-4:hover p,#u921-4:hover span,#u922-4:hover p,#u922-4:hover span,#u923-4:hover p,#u923-4:hover span,#u931-4:hover p,#u931-4:hover span,#u932-4:hover p,#u932-4:hover span,#u933-4:hover p,#u933-4:hover span,#u934-4:hover p,#u934-4:hover span,#u935-4:hover p,#u935-4:hover span,#u936-4:hover p,#u936-4:hover span,#u944-4:hover p,#u944-4:hover span,#u945-4:hover p,#u945-4:hover span,#u946-4:hover p,#u946-4:hover span,#u947-4:hover p,#u947-4:hover span,#u948-4:hover p,#u948-4:hover span,#u949-4:hover p,#u949-4:hover span,#u957-4:hover p,#u957-4:hover span,#u958-4:hover p,#u958-4:hover span,#u959-4:hover p,#u959-4:hover span,#u960-4:hover p,#u960-4:hover span,#u961-4:hover p,#u961-4:hover span,#u962-4:hover p,#u962-4:hover span,#u970-4:hover p,#u970-4:hover span,#u971-4:hover p,#u971-4:hover span,#u972-4:hover p,#u972-4:hover span,#u973-4:hover p,#u973-4:hover span,#u974-4:hover p,#u974-4:hover span,#u975-4:hover p,#u975-4:hover span,#u983-4:hover p,#u983-4:hover span,#u984-4:hover p,#u984-4:hover span,#u985-4:hover p,#u985-4:hover span,#u986-4:hover p,#u986-4:hover span,#u987-4:hover p,#u987-4:hover span,#u988-4:hover p,#u988-4:hover span,#u1418-4:hover p
 {
 	color: #5E26FD;
 	visibility: inherit;
@@ -9645,6 +9496,32 @@ By: Linoek******************/
 	padding: 10px 14px 0;
 }
 
+.close_icon
+{
+	position: absolute;
+  width: 20px;
+  height: 20px;
+  border-color: transparent;
+  color: #FFF;
+  border-radius: 30px;
+  border: 2px solid #FFF;
+	font-weight: 600;
+  top: 48px;
+  left: 870px;
+}
+
+.close_icon:hover
+{
+  color: #5E26FD;
+	border-color: #5E26FD;
+}
+
+.close_icon span
+{
+	padding: 2px 6px;
+	position: absolute;
+}
+
 .contact-module form p
 {
 	color: #828282;
@@ -9742,6 +9619,8 @@ By: Linoek******************/
 	margin-top: 55px !important;
 }
 
+
+/*Artist Module*/
 .popup-artist
 {
 	z-index: 357;
@@ -9767,10 +9646,57 @@ By: Linoek******************/
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 16px;
+	margin-top: 45px;
   left: 25px;
   padding: 41px 24px;
 }
+
+.popup-artist .social_container
+{
+	margin-top: 20px;
+}
+
+.popup-artist .social_container li
+{
+	padding-right: 30px;
+}
+
+.popup-artist .social_container li.youtube_item
+{
+		padding-top: 3px;
+}
+
+
+/**Popup Artist Module**/
+.popup_element.navigation_icon
+{
+	position: absolute;
+	width: 20px;
+  height: 20px;
+  color: #FFF;
+	font-size: 34px;
+	font-weight: 300;
+	top: 384px;
+}
+.popup_element.navigation_icon:hover
+{
+	min-height: 0px;
+	margin: 0px;
+}
+.popup_element.navigation_icon.next
+{
+	left: 870px;
+}
+.popup_element.navigation_icon.previous
+{
+	left: 790px;
+}
+.popup_element.navigation_icon span
+{
+	padding: 2px 6px;
+	position: absolute;
+}
+
 
 .Thumb.popup_element{
 	background-color: #2D53DB;
