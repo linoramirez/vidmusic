@@ -3629,7 +3629,7 @@
 
 #u640_position_content
 {
-	padding-bottom: 764px;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
@@ -9697,6 +9697,40 @@ By: Linoek******************/
 	position: absolute;
 }
 
+.artist_module .tabs
+{
+	z-index: 274;
+    height: 420px;
+    padding-bottom: 38px;
+    position: relative;
+    margin-right: -10000px;
+    margin-top: 775px;
+    left: 225px;
+}
+
+.artist_module .tabs .tabs_container
+{
+	width: 920px;
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.artist_module .tabs .tabs_container .category
+{
+	border: solid 1px #5E26FD;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 15px 7px;
+  color: #5E26FD;
+  width: fit-content;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.artist_module .tabs .tabs_container .category .caret
+{
+	margin-left: 10px;
+}
 
 .Thumb.popup_element{
 	background-color: #2D53DB;
